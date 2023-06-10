@@ -2,10 +2,25 @@
 
 namespace Company\Module\Controller\Index;
 
+use Company\Module\Model\DataExampleFactory;
 use Magento\Framework\Controller\ResultFactory;
+use Magento\Framework\App\Action\Action;
+use Magento\Framework\App\Action\Context;
 
 class Booking extends \Magento\Framework\App\Action\Action
 {
+
+    protected $_dataExample;
+    protected $resultRedirect;
+    public function __construct(\Magento\Framework\App\Action\Context $context,
+        \Company\Module\Model\DataExampleFactory  $dataExample,
+        \Magento\Framework\Controller\ResultFactory $result) {
+        parent::__construct($context);
+        $this->_dataExample = $dataExample;
+        $this->resultRedirect = $result;
+    }
+
+
     /**
      * Booking action
      *
@@ -13,33 +28,32 @@ class Booking extends \Magento\Framework\App\Action\Action
      */
     public function execute()
     {
-        $post = $this->getRequest()->getPostValue();
+        //echo "aa";die;
+        $model = $this->_dataExample->create();
+        $data = (array)$this->getRequest()->getPost();
+        $collection = $model->getCollection();
+        //print_r($data['email']);die;
+        //$collection->addFieldToFilter('email', ['eq' => $data['email']]);
+        //print_r($collection->getData());die;
+        if($data){
+            $model->addData([
+                "firstname" => $data['firstname'],
+                "lastname" => $data['lastname'],
+                "email" => $data['email'],
+                "dob" => $data['dob'],
+                ]);
+            $saveData = $model->save();
+            if($saveData){
+                $this->messageManager->addSuccess( __('Booking Done !') );
+            }
+        }
 
-        echo "<pre>";
-        print_r($post);
-        exit;
-        
-        // 1. POST request : Get booking data
-        $post = (array) $this->getRequest()->getPost();
-       
-        if (!empty($post)) {
-            // Retrieve your form data
-            $firstname   = $post['firstname'];
-            $lastname    = $post['lastname'];
-            $email       = $post['email'];
-            $dob = $post['dob'];
-
-            // Doing-something with...
-
-            // Display the succes form validation message
-            $this->messageManager->addSuccessMessage('Booking done !');
-
-            // Redirect to your form page (or anywhere you want...)
+        //     // Redirect to your form page (or anywhere you want...)
             $resultRedirect = $this->resultFactory->create(ResultFactory::TYPE_REDIRECT);
             $resultRedirect->setUrl('/companymodule/index/booking');
 
-            return $resultRedirect;
-        }
+        //     return $resultRedirect;
+        // }
         // 2. GET request : Render the booking page 
         $this->_view->loadLayout();
         $this->_view->renderLayout();

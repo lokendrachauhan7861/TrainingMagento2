@@ -8,11 +8,11 @@ use Magento\Framework\Setup\ModuleDataSetupInterface;
 
 class InstallData implements InstallDataInterface
 {
-	protected $_postFactory;
+	protected $dataExample;
 
-	public function __construct(\Company\Module\Model\PostFactory $postFactory)
+	public function __construct(\Company\Module\Model\DataExample $dataExample)
 	{
-		$this->_postFactory = $postFactory;
+		$this->dataExample = $dataExample;
 	}
 
 	public function install(ModuleDataSetupInterface $setup, ModuleContextInterface $context)
@@ -24,7 +24,7 @@ class InstallData implements InstallDataInterface
 			'dob'         => '09/03/2000'
 			
 		];
-		$post = $this->_postFactory->create();
+		$post = $this->dataExample->create();
 		$post->addData($data)->save();
 	}
 }

@@ -8,11 +8,11 @@ use Magento\Framework\Setup\ModuleContextInterface;
 
 class UpgradeData implements UpgradeDataInterface
 {
-	protected $_postFactory;
+	protected $dataExample;
 
-	public function __construct(\Company\Module\Model\PostFactory $postFactory)
+	public function __construct(\Company\Module\Model\DataExample $dataExample)
 	{
-		$this->_postFactory = $postFactory;
+		$this->dataExample = $dataExample;
 	}
     public function upgrade(ModuleDataSetupInterface $setup, ModuleContextInterface $context)
 	{
@@ -24,7 +24,7 @@ class UpgradeData implements UpgradeDataInterface
                 'dob'         => '09/03/2001'
                 
             ];
-			$post = $this->_postFactory->create();
+			$post = $this->dataExample->create();
 			$post->addData($data)->save();
 		}
 	}

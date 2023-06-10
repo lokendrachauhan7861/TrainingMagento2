@@ -8,10 +8,10 @@ class Interceptor extends \Company\Module\Controller\Index\Booking implements \M
 {
     use \Magento\Framework\Interception\Interceptor;
 
-    public function __construct(\Magento\Framework\App\Action\Context $context)
+    public function __construct(\Magento\Framework\App\Action\Context $context, \Company\Module\Model\DataExampleFactory $dataExample, \Magento\Framework\Controller\ResultFactory $result)
     {
         $this->___init();
-        parent::__construct($context);
+        parent::__construct($context, $dataExample, $result);
     }
 
     /**

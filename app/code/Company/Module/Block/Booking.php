@@ -28,8 +28,8 @@ class Booking extends \Magento\Framework\View\Element\Template
             // companymodule is given in routes.xml
             // controller_name is folder name inside controller folder
             // action is php file name inside above controller_name folder
-            return 'http://sonal.magento.com/index.php/companymodule/index/booking';
-            //return $this->getUrl('/companymodule/index/booking', ['_secure' => true]);
+            //return '/companymodule/index/booking';
+            return $this->getUrl('companymodule/index/booking', ['_secure' => true]);
         //return $this->getUrl('companymodule/controller_name/action', ['_secure' => true]);
         // here controller_name is index, action is booking
     }
