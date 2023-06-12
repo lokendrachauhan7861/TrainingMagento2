@@ -4,7 +4,7 @@ namespace SimplifiedMagento\FirstModule\Controller\Page;
 
 use Magento\Framework\App\Action\Context;
 use Magento\Framework\App\ResponseInterface;
-use SimplifiedMagento\FirstModule\NotMagento\PencilInterface;
+use SimplifiedMagento\FirstModule\Api\PencilInterface;
 //use Magento\Catalog\Api\ProductRepositoryInterface;
 
 class HelloWorld extends \Magento\Framework\App\Action\Action
@@ -21,8 +21,15 @@ class HelloWorld extends \Magento\Framework\App\Action\Action
   
     public function execute()
     {
-        //echo "shivam//";
-        //echo $this->pencilInterface->getPencilType();
-       // echo get_class($this->productRepositoryInterface);
+        //echo "hello world";
+        echo $this->pencilInterface->getPencilType();
+        $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+        $student = $objectManager->create(type:'SimplifiedMagento\FirstModule\Model\Student');
+        var_dump($student);
+        // $pencil = $objectManager->create(type:'SimplifiedMagento\FirstModule\Model\Pencil');
+        // var_dump($pencil);
+        // $book = $objectManager->create(type:'SimplifiedMagento\FirstModule\Model\Book');
+        // var_dump($book);
+       //echo get_class($this->productRepositoryInterface);
     }
 }

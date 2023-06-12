@@ -31,7 +31,7 @@ class Booking extends \Magento\Framework\App\Action\Action
         //echo "aa";die;
         $model = $this->_dataExample->create();
         $data = (array)$this->getRequest()->getPost();
-        $collection = $model->getCollection();
+        //$collection = $model->getCollection();
         //print_r($data['email']);die;
         //$collection->addFieldToFilter('email', ['eq' => $data['email']]);
         //print_r($collection->getData());die;
