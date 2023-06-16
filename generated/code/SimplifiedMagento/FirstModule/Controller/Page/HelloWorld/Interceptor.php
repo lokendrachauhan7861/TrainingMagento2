@@ -8,10 +8,10 @@ class Interceptor extends \SimplifiedMagento\FirstModule\Controller\Page\HelloWo
 {
     use \Magento\Framework\Interception\Interceptor;
 
-    public function __construct(\Magento\Framework\App\Action\Context $context, \SimplifiedMagento\FirstModule\Api\PencilInterface $pencilInterface)
+    public function __construct(\Magento\Framework\App\Action\Context $context, \Magento\Catalog\Model\ProductFactory $productFactory, \SimplifiedMagento\FirstModule\Api\PencilInterface $pencilInterface, \SimplifiedMagento\FirstModule\Model\PencilFactory $pencilFactory)
     {
         $this->___init();
-        parent::__construct($context, $pencilInterface);
+        parent::__construct($context, $productFactory, $pencilInterface, $pencilFactory);
     }
 
     /**

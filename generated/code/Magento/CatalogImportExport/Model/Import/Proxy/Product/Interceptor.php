@@ -17,6 +17,15 @@ class Interceptor extends \Magento\CatalogImportExport\Model\Import\Proxy\Produc
     /**
      * {@inheritdoc}
      */
+    public function getName()
+    {
+        $pluginInfo = $this->pluginList->getNext($this->subjectType, 'getName');
+        return $pluginInfo ? $this->___callPlugins('getName', func_get_args(), $pluginInfo) : parent::getName();
+    }
+
+    /**
+     * {@inheritdoc}
+     */
     public function reindex()
     {
         $pluginInfo = $this->pluginList->getNext($this->subjectType, 'reindex');
@@ -39,6 +48,15 @@ class Interceptor extends \Magento\CatalogImportExport\Model\Import\Proxy\Produc
     {
         $pluginInfo = $this->pluginList->getNext($this->subjectType, 'getIdentities');
         return $pluginInfo ? $this->___callPlugins('getIdentities', func_get_args(), $pluginInfo) : parent::getIdentities();
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function setName($name)
+    {
+        $pluginInfo = $this->pluginList->getNext($this->subjectType, 'setName');
+        return $pluginInfo ? $this->___callPlugins('setName', func_get_args(), $pluginInfo) : parent::setName($name);
     }
 
     /**

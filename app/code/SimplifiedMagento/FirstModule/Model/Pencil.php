@@ -10,10 +10,15 @@ class Pencil implements PencilInterface
 {
     protected $color;
     protected $size;
-    public function __construct(Color $color, Size $size)
+    protected $name;
+    protected $school;
+
+    public function __construct(Color $color, Size $size, $name = null, $school = null)
     {
          $this->color = $color;
          $this->size = $size;
+         $this->name = $name;
+         $this->school = $school;
     }
     public function getPencilType()
     {

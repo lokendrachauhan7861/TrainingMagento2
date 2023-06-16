@@ -4,5 +4,8 @@
         <route id="companymodule" frontName="companymodule">
             <module name="Company_Module"/>
         </route>
+         <route id="bookinglist" frontName="bookinglist">
+            <module name="Company_Module"/>
+        </route>
     </router>
 </config>

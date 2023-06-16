@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1686570411;s:6:"expire";i:1718106411;s:4:"tags";s:37:"f73_LAYOUT_GENERAL_CACHE_TAG,f73_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1686840546;s:6:"expire";i:1718376546;s:4:"tags";s:37:"f73_LAYOUT_GENERAL_CACHE_TAG,f73_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -6918,6 +6918,15 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1686570411;s:6:"expire";i:1718106411;s:4:"t
 </handle><handle id="wishlist_shared_index" layout="1column"><body>
    <referenceContainer name="content">
       <block class="Magento\Wishlist\Block\Share\Wishlist" name="customer.wishlist" template="Magento_Wishlist::shared.phtml" cacheable="false"/>
+   </referenceContainer>
+</body>
+</handle><handle id="bookinglist_index_bookinglist" layout="2columns-left"><head>
+   <title>Booking List</title>
+</head>
+<body>
+   <referenceBlock name="navigation.sections" remove="true"/>
+   <referenceContainer name="content">
+      <block class="Company\Module\Block\BookingList" name="bookinglist" template="Company_Module::bookinglist.phtml"/>
    </referenceContainer>
 </body>
 </handle><handle id="companymodule_index_booking" layout="2columns-left"><head>

@@ -475,6 +475,11 @@
         'sortOrder' => 100,
         'instance' => 'Magento\\Bundle\\Model\\Plugin\\Frontend\\ProductIdentitiesExtender',
       ),
+      'before_set_name' => 
+      array (
+        'sortOrder' => 10,
+        'instance' => 'SimplifiedMagento\\FirstModule\\Plugin\\PluginSolution',
+      ),
     ),
     'Magento\\Cms\\Model\\PageRepository\\ValidationComposite' => 
     array (
@@ -3445,6 +3450,7 @@
     'Magento\\Review\\Model\\Session' => NULL,
     'Magento\\Wishlist\\Model\\Session\\Storage' => NULL,
     'Magento\\Wishlist\\Model\\Session' => NULL,
+    'virtualType' => NULL,
     'Magento\\Framework\\DB\\Adapter\\AdapterInterface' => 
     array (
       'execute_commit_callbacks' => 
@@ -4295,6 +4301,11 @@
       array (
         'sortOrder' => 0,
         'instance' => 'Magento\\Swatches\\Model\\Plugin\\Product',
+      ),
+      'before_set_name' => 
+      array (
+        'sortOrder' => 10,
+        'instance' => 'SimplifiedMagento\\FirstModule\\Plugin\\PluginSolution',
       ),
       'cms' => 
       array (
@@ -9884,6 +9895,20 @@
       4 => 
       array (
         0 => 'exclude_swatch_attribute',
+      ),
+    ),
+    'Magento\\Catalog\\Model\\Product_setName___self' => 
+    array (
+      1 => 
+      array (
+        0 => 'before_set_name',
+      ),
+    ),
+    'Magento\\Catalog\\Model\\Product_getName___self' => 
+    array (
+      4 => 
+      array (
+        0 => 'before_set_name',
       ),
     ),
     'Magento\\Cms\\Model\\PageRepository\\ValidationComposite_save___self' => 
