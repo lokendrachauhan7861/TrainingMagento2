@@ -2597,3 +2597,1196 @@ Verify the XML and try again. [] []
 [2023-06-15T14:49:06.869827+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
 [2023-06-15T14:49:06.870690+00:00] main.INFO: Broken reference: the 'skip_gallery_before' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_before.wrapper' and 'product.info.media' respectively. [] []
 [2023-06-15T14:49:06.871124+00:00] main.INFO: Broken reference: the 'skip_gallery_after' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_after.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-16T06:09:06.881117+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:09:06.882563+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:09:06.883701+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:09:06.884847+00:00] main.INFO: Broken reference: the 'skip_gallery_before' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_before.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-16T06:09:06.885363+00:00] main.INFO: Broken reference: the 'skip_gallery_after' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_after.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-16T06:09:25.444107+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:09:25.444855+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:09:25.445494+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:09:25.446358+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T06:09:25.447189+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T06:13:25.799091+00:00] main.CRITICAL: Can't create directory /var/www/html/magento2/generated/code/Magento/Framework/App/ResourceConnection/.
+Class Magento\Framework\App\ResourceConnection\Proxy generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-06-16T06:13:25.882140+00:00] main.CRITICAL: Can't create directory /var/www/html/magento2/generated/code/Magento/Framework/App/ResourceConnection/.
+Class Magento\Framework\App\ResourceConnection\Proxy generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-06-16T06:17:46.000221+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:17:46.001175+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:17:46.001758+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:17:46.002402+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T06:17:46.003198+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T06:17:57.147517+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:17:57.148443+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:17:57.149179+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:17:57.150353+00:00] main.INFO: Broken reference: the 'skip_gallery_before' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_before.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-16T06:17:57.151004+00:00] main.INFO: Broken reference: the 'skip_gallery_after' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_after.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-16T06:18:02.168393+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:18:02.169192+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:18:02.169819+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:18:02.171094+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T06:18:02.172560+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T06:36:51.405015+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:36:51.405690+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:36:51.406169+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:36:51.406692+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T06:36:51.407317+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T06:36:54.571310+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:36:54.572483+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:36:54.573653+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:36:54.574335+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T06:36:54.575146+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T06:53:52.755191+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:53:52.755808+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:53:52.756368+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:53:52.757137+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T06:53:52.757891+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T06:54:05.353638+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:54:05.354588+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:54:05.355251+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:54:05.355804+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:54:05.356259+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:54:05.357044+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:54:12.108955+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:54:12.109750+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:54:12.110405+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:54:12.111389+00:00] main.INFO: Broken reference: the 'skip_gallery_before' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_before.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-16T06:54:12.111947+00:00] main.INFO: Broken reference: the 'skip_gallery_after' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_after.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-16T06:54:21.348883+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:54:21.349490+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:54:21.350022+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:54:21.350569+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T06:54:21.351201+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T06:54:30.652436+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:54:30.653201+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:54:30.653787+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T06:54:30.654402+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T06:54:30.655086+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T07:02:17.378567+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:02:17.382730+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:02:17.384397+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:02:17.385761+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T07:02:17.387153+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T07:02:51.869068+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:02:51.869969+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:02:51.871117+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:02:51.872155+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T07:02:51.872846+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T07:03:10.868201+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:03:10.869335+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:03:10.870199+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:03:10.871144+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T07:03:10.872084+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T07:12:56.206443+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:12:56.207224+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:12:56.207722+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:12:56.208259+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T07:12:56.208888+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T07:13:07.516481+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:13:07.517316+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:13:07.517923+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:13:07.518560+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T07:13:07.519252+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T07:13:15.887124+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:13:15.887748+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:13:15.888251+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:13:15.888812+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T07:13:15.889454+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T07:13:19.211869+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:13:19.212355+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:13:19.212802+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:13:19.213314+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T07:13:19.213988+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T07:40:54.214964+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:40:54.215478+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:40:54.216084+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:40:54.216606+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T07:40:54.217221+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T07:40:55.678367+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:40:55.679520+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:40:55.680408+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:40:55.681023+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T07:40:55.681709+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T07:40:57.422658+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:40:57.423156+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:40:57.423635+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:40:57.424180+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:40:57.424782+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:40:57.425332+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:41:02.837268+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:41:02.837739+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:41:02.838165+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:41:02.838912+00:00] main.INFO: Broken reference: the 'skip_gallery_before' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_before.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-16T07:41:02.839260+00:00] main.INFO: Broken reference: the 'skip_gallery_after' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_after.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-16T07:41:23.663482+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:41:23.664143+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:41:23.664603+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:41:23.665148+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T07:41:23.665779+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T07:52:59.305918+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:52:59.306722+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:52:59.307191+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:52:59.307752+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T07:52:59.308394+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T07:53:06.714191+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:53:06.714714+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:53:06.715243+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:53:06.716965+00:00] main.INFO: Broken reference: the 'skip_gallery_before' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_before.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-16T07:53:06.718026+00:00] main.INFO: Broken reference: the 'skip_gallery_after' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_after.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-16T07:53:16.399228+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:53:16.399800+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:53:16.400263+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:53:16.400811+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T07:53:16.401464+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T07:53:47.279428+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:53:47.279997+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:53:47.280465+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:53:47.281059+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T07:53:47.281700+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T07:54:27.419350+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:54:27.419889+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:54:27.420349+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:54:27.420880+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T07:54:27.421496+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T07:54:41.685883+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:54:41.686419+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:54:41.686896+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T07:54:41.687427+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T07:54:41.688314+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T08:15:30.988811+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:15:30.989893+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:15:30.990387+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:15:30.991079+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T08:15:30.992137+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T08:15:52.287640+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:15:52.288215+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:15:52.288673+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:15:52.289614+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T08:15:52.290607+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T08:16:14.467259+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:16:14.467837+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:16:14.468318+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:16:14.468861+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T08:16:14.469502+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T08:23:06.180503+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:23:06.181362+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:23:06.182068+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:23:06.183119+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T08:23:06.183933+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T08:23:14.120132+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:23:14.121199+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:23:14.122349+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:23:14.123997+00:00] main.INFO: Broken reference: the 'skip_gallery_before' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_before.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-16T08:23:14.124471+00:00] main.INFO: Broken reference: the 'skip_gallery_after' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_after.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-16T08:23:21.734803+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:23:21.735393+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:23:21.736058+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:23:21.736597+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T08:23:21.737239+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T08:27:41.228321+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:27:41.228815+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:27:41.229253+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:27:41.229750+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T08:27:41.230352+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T08:27:47.154623+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:27:47.155409+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:27:47.155914+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:27:47.156440+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T08:27:47.157060+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T08:27:58.570258+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:27:58.570828+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:27:58.571282+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:27:58.572145+00:00] main.INFO: Broken reference: the 'skip_gallery_before' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_before.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-16T08:27:58.572585+00:00] main.INFO: Broken reference: the 'skip_gallery_after' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_after.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-16T08:28:10.784339+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:28:10.784912+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:28:10.785399+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:28:10.786023+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T08:28:10.786696+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T08:28:15.223457+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:28:15.224034+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:28:15.224535+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:28:15.225308+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T08:28:15.226399+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T08:28:23.977296+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:28:23.977806+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:28:23.978261+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:28:23.978922+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T08:28:23.979594+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T08:28:27.668768+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:28:27.669369+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:28:27.669894+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:28:27.670294+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:28:27.670625+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:28:27.670948+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:28:38.649711+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:28:38.650737+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:28:38.651860+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:28:38.653165+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T08:28:38.653858+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T08:30:04.107878+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:30:04.108594+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:30:04.109171+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T08:30:04.110041+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T08:30:04.111584+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T09:04:17.522162+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T09:04:17.523104+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T09:04:17.523618+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T09:04:17.524347+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T09:04:17.524966+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T09:04:19.177886+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T09:04:19.178494+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T09:04:19.178925+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T09:04:19.179315+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T09:04:19.179655+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T09:04:19.180076+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T09:04:25.525330+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T09:04:25.525789+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T09:04:25.526255+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T09:04:25.526991+00:00] main.INFO: Broken reference: the 'skip_gallery_before' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_before.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-16T09:04:25.527340+00:00] main.INFO: Broken reference: the 'skip_gallery_after' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_after.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-16T09:04:30.542663+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T09:04:30.543196+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T09:04:30.543682+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T09:04:30.544248+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T09:04:30.544893+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T09:05:11.080892+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T09:05:11.081948+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T09:05:11.082829+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T09:05:11.083585+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T09:05:11.084347+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T10:43:42.389530+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:43:42.390021+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:43:42.390456+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:43:42.390951+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T10:43:42.391790+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T10:43:52.002953+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:43:52.004614+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:43:52.005102+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:43:52.006035+00:00] main.INFO: Broken reference: the 'skip_gallery_before' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_before.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-16T10:43:52.006907+00:00] main.INFO: Broken reference: the 'skip_gallery_after' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_after.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-16T10:43:57.868598+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:43:57.870140+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:43:57.871455+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:43:57.872446+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T10:43:57.873523+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T10:45:11.544496+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:45:11.545026+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:45:11.545481+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:45:11.546006+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T10:45:11.546636+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T10:45:19.462220+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:45:19.462763+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:45:19.463229+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:45:19.463807+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T10:45:19.464500+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T10:49:08.700562+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:49:08.701085+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:49:08.701534+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:49:08.702081+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T10:49:08.702704+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T10:49:21.293582+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:49:21.294813+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:49:21.295467+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:49:21.296487+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T10:49:21.298006+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T10:49:24.563091+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:49:24.563586+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:49:24.564267+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:49:24.564664+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:49:24.565007+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:49:24.565340+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:49:31.743722+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:49:31.744380+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:49:31.744923+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:49:31.746053+00:00] main.INFO: Broken reference: the 'skip_gallery_before' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_before.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-16T10:49:31.746535+00:00] main.INFO: Broken reference: the 'skip_gallery_after' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_after.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-16T10:49:37.254977+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:49:37.255990+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:49:37.256622+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T10:49:37.257145+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T10:49:37.257778+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T13:07:42.679382+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:07:42.679977+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:07:42.680463+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:07:42.680992+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T13:07:42.681865+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T13:08:06.089369+00:00] main.INFO: Broken reference: the 'header.panel.wrapper' element cannot be added as child to 'header.container', because the latter doesn't exist [] []
+[2023-06-16T13:08:06.090219+00:00] main.INFO: Broken reference: the 'header-wrapper' element cannot be added as child to 'header.container', because the latter doesn't exist [] []
+[2023-06-16T13:08:06.090654+00:00] main.INFO: Broken reference: the 'navigation.sections' element cannot be added as child to 'page.top', because the latter doesn't exist [] []
+[2023-06-16T13:08:06.091012+00:00] main.INFO: Broken reference: the 'top.container' element cannot be added as child to 'page.top', because the latter doesn't exist [] []
+[2023-06-16T13:08:06.091343+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.top', because the latter doesn't exist [] []
+[2023-06-16T13:08:06.091743+00:00] main.INFO: Broken reference: the 'footer' element cannot be added as child to 'footer-container', because the latter doesn't exist [] []
+[2023-06-16T13:08:06.092182+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:08:06.092616+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:08:06.093032+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:08:06.093423+00:00] main.INFO: Broken reference: the 'header.panel.wrapper' tries to reorder itself towards '', but their parents are different: 'header.container' and '' respectively. [] []
+[2023-06-16T13:08:06.093774+00:00] main.INFO: Broken reference: the 'navigation.sections' tries to reorder itself towards '', but their parents are different: 'page.top' and '' respectively. [] []
+[2023-06-16T13:09:34.383134+00:00] main.ERROR: Unable to send mail. Please try again later. [] []
+[2023-06-16T13:09:34.534533+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:09:34.535078+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:09:34.535829+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:13:13.947896+00:00] main.CRITICAL: Can't create directory /var/www/html/magento2/generated/code/Magento/Framework/App/ResourceConnection/.
+Class Magento\Framework\App\ResourceConnection\Proxy generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-06-16T13:15:25.559716+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:15:25.560565+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:15:25.561016+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:15:25.561785+00:00] main.INFO: Broken reference: the 'skip_gallery_before' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_before.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-16T13:15:25.562137+00:00] main.INFO: Broken reference: the 'skip_gallery_after' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_after.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-16T13:15:34.683772+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:15:34.684920+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:15:34.685994+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:15:34.687203+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T13:15:34.688903+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T13:15:38.747031+00:00] main.INFO: Broken reference: the 'header.panel.wrapper' element cannot be added as child to 'header.container', because the latter doesn't exist [] []
+[2023-06-16T13:15:38.747597+00:00] main.INFO: Broken reference: the 'header-wrapper' element cannot be added as child to 'header.container', because the latter doesn't exist [] []
+[2023-06-16T13:15:38.748104+00:00] main.INFO: Broken reference: the 'navigation.sections' element cannot be added as child to 'page.top', because the latter doesn't exist [] []
+[2023-06-16T13:15:38.748739+00:00] main.INFO: Broken reference: the 'top.container' element cannot be added as child to 'page.top', because the latter doesn't exist [] []
+[2023-06-16T13:15:38.749215+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.top', because the latter doesn't exist [] []
+[2023-06-16T13:15:38.750265+00:00] main.INFO: Broken reference: the 'footer' element cannot be added as child to 'footer-container', because the latter doesn't exist [] []
+[2023-06-16T13:15:38.751042+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:15:38.751436+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:15:38.752010+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:15:38.752609+00:00] main.INFO: Broken reference: the 'header.panel.wrapper' tries to reorder itself towards '', but their parents are different: 'header.container' and '' respectively. [] []
+[2023-06-16T13:15:38.752979+00:00] main.INFO: Broken reference: the 'navigation.sections' tries to reorder itself towards '', but their parents are different: 'page.top' and '' respectively. [] []
+[2023-06-16T13:16:41.842787+00:00] main.ERROR: Unable to send mail. Please try again later. [] []
+[2023-06-16T13:17:56.644204+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:17:56.645293+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:17:56.646317+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:17:56.647410+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:17:56.648084+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:17:56.648597+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:18:08.749935+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:18:08.750584+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:18:08.751145+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:18:08.752045+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T13:18:08.752726+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T13:18:11.038312+00:00] main.INFO: Broken reference: the 'header.panel.wrapper' element cannot be added as child to 'header.container', because the latter doesn't exist [] []
+[2023-06-16T13:18:11.038925+00:00] main.INFO: Broken reference: the 'header-wrapper' element cannot be added as child to 'header.container', because the latter doesn't exist [] []
+[2023-06-16T13:18:11.039402+00:00] main.INFO: Broken reference: the 'navigation.sections' element cannot be added as child to 'page.top', because the latter doesn't exist [] []
+[2023-06-16T13:18:11.039931+00:00] main.INFO: Broken reference: the 'top.container' element cannot be added as child to 'page.top', because the latter doesn't exist [] []
+[2023-06-16T13:18:11.040355+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.top', because the latter doesn't exist [] []
+[2023-06-16T13:18:11.040768+00:00] main.INFO: Broken reference: the 'footer' element cannot be added as child to 'footer-container', because the latter doesn't exist [] []
+[2023-06-16T13:18:11.041417+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:18:11.042027+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:18:11.042638+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:18:11.043439+00:00] main.INFO: Broken reference: the 'header.panel.wrapper' tries to reorder itself towards '', but their parents are different: 'header.container' and '' respectively. [] []
+[2023-06-16T13:18:11.044289+00:00] main.INFO: Broken reference: the 'navigation.sections' tries to reorder itself towards '', but their parents are different: 'page.top' and '' respectively. [] []
+[2023-06-16T13:19:47.462348+00:00] main.ERROR: Unable to send mail. Please try again later. [] []
+[2023-06-16T13:27:58.040245+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:27:58.040953+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:27:58.041544+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:27:58.042221+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T13:27:58.043106+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T13:28:06.599711+00:00] main.INFO: Broken reference: the 'header.panel.wrapper' element cannot be added as child to 'header.container', because the latter doesn't exist [] []
+[2023-06-16T13:28:06.600494+00:00] main.INFO: Broken reference: the 'header-wrapper' element cannot be added as child to 'header.container', because the latter doesn't exist [] []
+[2023-06-16T13:28:06.600962+00:00] main.INFO: Broken reference: the 'navigation.sections' element cannot be added as child to 'page.top', because the latter doesn't exist [] []
+[2023-06-16T13:28:06.601449+00:00] main.INFO: Broken reference: the 'top.container' element cannot be added as child to 'page.top', because the latter doesn't exist [] []
+[2023-06-16T13:28:06.601906+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.top', because the latter doesn't exist [] []
+[2023-06-16T13:28:06.602339+00:00] main.INFO: Broken reference: the 'footer' element cannot be added as child to 'footer-container', because the latter doesn't exist [] []
+[2023-06-16T13:28:06.602811+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:28:06.603266+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:28:06.603852+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:28:06.604370+00:00] main.INFO: Broken reference: the 'header.panel.wrapper' tries to reorder itself towards '', but their parents are different: 'header.container' and '' respectively. [] []
+[2023-06-16T13:28:06.604794+00:00] main.INFO: Broken reference: the 'navigation.sections' tries to reorder itself towards '', but their parents are different: 'page.top' and '' respectively. [] []
+[2023-06-16T13:29:45.816793+00:00] main.ERROR: Unable to send mail. Please try again later. [] []
+[2023-06-16T13:31:29.872688+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:31:29.873347+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:31:29.874033+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:31:29.874468+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:31:29.874834+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:31:29.875207+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:31:44.228518+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:31:44.229231+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:31:44.229800+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:31:44.230384+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T13:31:44.231327+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T13:32:59.156937+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:32:59.157844+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:32:59.158445+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:32:59.159122+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T13:32:59.160154+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T13:33:14.405172+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:33:14.405886+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:33:14.406450+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:33:14.407111+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T13:33:14.407867+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T13:34:19.873286+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:34:19.873980+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:34:19.874585+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T13:34:19.875435+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T13:34:19.876768+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T14:07:40.494394+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T14:07:40.495319+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T14:07:40.496475+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T14:07:40.497459+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T14:07:40.498857+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-16T14:07:49.788142+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T14:07:49.789242+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T14:07:49.790516+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-16T14:07:49.791828+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-16T14:07:49.792522+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-18T14:32:43.677781+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T14:32:43.678728+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T14:32:43.679198+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T14:32:43.679719+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-18T14:32:43.680353+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-18T14:32:48.553422+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T14:32:48.554292+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T14:32:48.555547+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T14:32:48.555963+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T14:32:48.556314+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T14:32:48.556668+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T14:36:30.101622+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T14:36:30.102936+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T14:36:30.103428+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T14:36:30.103899+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T14:36:30.104316+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T14:36:30.104807+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T14:36:34.056877+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T14:36:34.057397+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T14:36:34.057854+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T14:36:34.058297+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T14:36:34.058681+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T14:36:34.059026+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T14:41:05.316272+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T14:41:05.316797+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T14:41:05.317231+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T14:41:05.318120+00:00] main.INFO: Broken reference: the 'skip_gallery_before' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_before.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-18T14:41:05.318552+00:00] main.INFO: Broken reference: the 'skip_gallery_after' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_after.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-18T14:41:44.731794+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T14:41:44.732524+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T14:41:44.733203+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T14:41:44.733791+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-18T14:41:44.734485+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-18T16:33:32.385920+00:00] main.ERROR: Class "SimplifiedMagento\FirstModule\Model\Total\Fee" does not exist [] []
+[2023-06-18T16:33:33.845441+00:00] main.ERROR: Class "SimplifiedMagento\FirstModule\Model\Total\Fee" does not exist [] []
+[2023-06-18T16:36:26.218799+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T16:36:26.219514+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T16:36:26.220303+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T16:36:26.221260+00:00] main.INFO: Broken reference: the 'skip_gallery_before' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_before.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-18T16:36:26.221621+00:00] main.INFO: Broken reference: the 'skip_gallery_after' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_after.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-18T16:36:37.206179+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T16:36:37.207039+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T16:36:37.207506+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-18T16:36:37.208033+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-18T16:36:37.208701+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-18T18:03:51.769889+00:00] main.INFO: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-18T18:03:51.770655+00:00] main.ERROR: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-18T18:13:56.813768+00:00] main.INFO: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-18T18:13:56.814574+00:00] main.ERROR: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-18T18:16:12.780614+00:00] main.INFO: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-18T18:16:12.781535+00:00] main.ERROR: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-18T18:16:13.933748+00:00] main.INFO: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-18T18:16:13.934397+00:00] main.ERROR: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-18T18:16:14.923652+00:00] main.INFO: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-18T18:16:14.924754+00:00] main.ERROR: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-18T18:17:17.457757+00:00] main.INFO: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-18T18:17:17.458570+00:00] main.ERROR: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T04:11:57.491882+00:00] main.INFO: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T04:11:57.496515+00:00] main.ERROR: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T04:12:11.671289+00:00] main.INFO: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T04:12:11.672139+00:00] main.ERROR: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T04:12:16.793130+00:00] main.INFO: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T04:12:16.794131+00:00] main.ERROR: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T04:12:24.716743+00:00] main.INFO: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T04:12:24.717367+00:00] main.ERROR: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T04:23:07.337635+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T04:23:07.338610+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T04:23:07.339547+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T04:23:07.340565+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T04:23:07.341804+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T04:23:11.071345+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T04:23:11.072765+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T04:23:11.073877+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T04:23:11.075085+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T04:23:11.075963+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T04:23:11.076751+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T04:23:17.229375+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T04:23:17.230556+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T04:23:17.231579+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T04:23:17.233299+00:00] main.INFO: Broken reference: the 'skip_gallery_before' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_before.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-19T04:23:17.234488+00:00] main.INFO: Broken reference: the 'skip_gallery_after' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_after.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-19T04:23:23.515266+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T04:23:23.516468+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T04:23:23.517530+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T04:23:23.518850+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T04:23:23.520582+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T04:42:29.655605+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T04:42:29.658848+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T04:42:29.659448+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T04:42:29.660270+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T04:42:29.661092+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T04:47:08.815201+00:00] main.INFO: Broken reference: the 'header.panel.wrapper' element cannot be added as child to 'header.container', because the latter doesn't exist [] []
+[2023-06-19T04:47:08.816240+00:00] main.INFO: Broken reference: the 'header-wrapper' element cannot be added as child to 'header.container', because the latter doesn't exist [] []
+[2023-06-19T04:47:08.816670+00:00] main.INFO: Broken reference: the 'navigation.sections' element cannot be added as child to 'page.top', because the latter doesn't exist [] []
+[2023-06-19T04:47:08.817351+00:00] main.INFO: Broken reference: the 'top.container' element cannot be added as child to 'page.top', because the latter doesn't exist [] []
+[2023-06-19T04:47:08.818209+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.top', because the latter doesn't exist [] []
+[2023-06-19T04:47:08.819015+00:00] main.INFO: Broken reference: the 'footer' element cannot be added as child to 'footer-container', because the latter doesn't exist [] []
+[2023-06-19T04:47:08.819613+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T04:47:08.820150+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T04:47:08.820923+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T04:47:08.821679+00:00] main.INFO: Broken reference: the 'header.panel.wrapper' tries to reorder itself towards '', but their parents are different: 'header.container' and '' respectively. [] []
+[2023-06-19T04:47:08.822531+00:00] main.INFO: Broken reference: the 'navigation.sections' tries to reorder itself towards '', but their parents are different: 'page.top' and '' respectively. [] []
+[2023-06-19T04:49:01.831130+00:00] main.ERROR: Unable to send mail. Please try again later. [] []
+[2023-06-19T06:09:01.774823+00:00] main.ERROR: Command "cache:flushsudo" is not defined.
+
+Did you mean one of these?
+    cache:clean
+    cache:disable
+    cache:enable
+    cache:flush
+    cache:status
+#0 /var/www/html/magento2/vendor/symfony/console/Application.php(259): Symfony\Component\Console\Application->find()
+#1 /var/www/html/magento2/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#2 /var/www/html/magento2/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#3 /var/www/html/magento2/bin/magento(23): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2023-06-19T06:13:48.971706+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:13:48.972678+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:13:48.973263+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:13:48.973732+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:13:48.974179+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:13:48.974734+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:13:53.918974+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:13:53.919778+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:13:53.920846+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:13:53.922101+00:00] main.INFO: Broken reference: the 'skip_gallery_before' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_before.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-19T06:13:53.922579+00:00] main.INFO: Broken reference: the 'skip_gallery_after' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_after.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-19T06:14:00.355011+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:14:00.355760+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:14:00.356376+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:14:00.357028+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T06:14:00.358062+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T06:18:33.433399+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:18:33.434559+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:18:33.435206+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:18:33.435834+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T06:18:33.437127+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T06:18:42.343186+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:18:42.343967+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:18:42.345025+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:18:42.345960+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T06:18:42.346744+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T06:55:59.991794+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:55:59.992974+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:55:59.993870+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:55:59.994413+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:55:59.994997+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:55:59.995687+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:56:05.036660+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:56:05.037777+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:56:05.038919+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:56:05.040139+00:00] main.INFO: Broken reference: the 'skip_gallery_before' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_before.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-19T06:56:05.040814+00:00] main.INFO: Broken reference: the 'skip_gallery_after' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_after.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-19T06:56:11.730978+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:56:11.731613+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:56:11.732645+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:56:11.734108+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T06:56:11.735933+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T06:58:58.731246+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:58:58.732465+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:58:58.733060+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:58:58.733864+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T06:58:58.734638+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T06:59:02.041786+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:59:02.042387+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:59:02.042948+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:59:02.043735+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T06:59:02.045092+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T06:59:08.980626+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:59:08.981326+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:59:08.981915+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T06:59:08.982548+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T06:59:08.983406+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T07:09:53.243627+00:00] main.ERROR: Command "cache:flushsudo" is not defined.
+
+Did you mean one of these?
+    cache:clean
+    cache:disable
+    cache:enable
+    cache:flush
+    cache:status
+#0 /var/www/html/magento2/vendor/symfony/console/Application.php(259): Symfony\Component\Console\Application->find()
+#1 /var/www/html/magento2/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#2 /var/www/html/magento2/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#3 /var/www/html/magento2/bin/magento(23): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2023-06-19T07:14:21.673885+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:14:21.674840+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:14:21.675480+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:14:21.676187+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T07:14:21.677392+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T07:14:26.646539+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:14:26.647140+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:14:26.647702+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:14:26.648326+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T07:14:26.649047+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T07:14:29.240671+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:14:29.241193+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:14:29.241651+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:14:29.242250+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T07:14:29.242923+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T07:14:35.674681+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:14:35.675341+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:14:35.675955+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:14:35.676557+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T07:14:35.677494+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T07:14:39.400539+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:14:39.401761+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:14:39.403099+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:14:39.404350+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T07:14:39.405615+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T07:14:41.363560+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:14:41.364260+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:14:41.364835+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:14:41.365640+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:14:41.366233+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:14:41.367004+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:14:47.999074+00:00] main.CRITICAL: Exception message: Warning: Undefined variable $balabalancence2 in /var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/Model/Total/Fee.php on line 28
+Trace: <pre>#1 SimplifiedMagento\FirstModule\Model\Total\Fee->collect() called at [vendor/magento/module-quote/Model/Quote/TotalsCollector.php:261]
+#2 Magento\Quote\Model\Quote\TotalsCollector->collectAddressTotals() called at [vendor/magento/module-quote/Model/Quote/TotalsCollector.php:156]
+#3 Magento\Quote\Model\Quote\TotalsCollector->collect() called at [vendor/magento/framework/Interception/Interceptor.php:58]
+#4 Magento\Quote\Model\Quote\TotalsCollector\Interceptor->___callParent() called at [vendor/magento/framework/Interception/Interceptor.php:138]
+#5 Magento\Quote\Model\Quote\TotalsCollector\Interceptor->Magento\Framework\Interception\{closure}() called at [vendor/magento/framework/Interception/Interceptor.php:153]
+#6 Magento\Quote\Model\Quote\TotalsCollector\Interceptor->___callPlugins() called at [generated/code/Magento/Quote/Model/Quote/TotalsCollector/Interceptor.php:23]
+#7 Magento\Quote\Model\Quote\TotalsCollector\Interceptor->collect() called at [vendor/magento/module-quote/Model/Quote.php:2021]
+#8 Magento\Quote\Model\Quote->collectTotals() called at [vendor/magento/module-checkout/Model/Cart.php:594]
+#9 Magento\Checkout\Model\Cart->save() called at [vendor/magento/framework/Interception/Interceptor.php:58]
+#10 Magento\Checkout\Model\Cart\Interceptor->___callParent() called at [vendor/magento/framework/Interception/Interceptor.php:138]
+#11 Magento\Checkout\Model\Cart\Interceptor->Magento\Framework\Interception\{closure}() called at [vendor/magento/framework/Interception/Interceptor.php:153]
+#12 Magento\Checkout\Model\Cart\Interceptor->___callPlugins() called at [generated/code/Magento/Checkout/Model/Cart/Interceptor.php:23]
+#13 Magento\Checkout\Model\Cart\Interceptor->save() called at [vendor/magento/module-checkout/Controller/Cart/Add.php:130]
+#14 Magento\Checkout\Controller\Cart\Add->execute() called at [vendor/magento/framework/Interception/Interceptor.php:58]
+#15 Magento\Checkout\Controller\Cart\Add\Interceptor->___callParent() called at [vendor/magento/framework/Interception/Interceptor.php:138]
+#16 Magento\Checkout\Controller\Cart\Add\Interceptor->Magento\Framework\Interception\{closure}() called at [vendor/magento/framework/Interception/Interceptor.php:153]
+#17 Magento\Checkout\Controller\Cart\Add\Interceptor->___callPlugins() called at [generated/code/Magento/Checkout/Controller/Cart/Add/Interceptor.php:23]
+#18 Magento\Checkout\Controller\Cart\Add\Interceptor->execute() called at [vendor/magento/framework/App/Action/Action.php:111]
+#19 Magento\Framework\App\Action\Action->dispatch() called at [vendor/magento/framework/Interception/Interceptor.php:58]
+#20 Magento\Checkout\Controller\Cart\Add\Interceptor->___callParent() called at [vendor/magento/framework/Interception/Interceptor.php:138]
+#21 Magento\Checkout\Controller\Cart\Add\Interceptor->Magento\Framework\Interception\{closure}() called at [vendor/magento/framework/Interception/Interceptor.php:153]
+#22 Magento\Checkout\Controller\Cart\Add\Interceptor->___callPlugins() called at [generated/code/Magento/Checkout/Controller/Cart/Add/Interceptor.php:32]
+#23 Magento\Checkout\Controller\Cart\Add\Interceptor->dispatch() called at [vendor/magento/framework/App/FrontController.php:245]
+#24 Magento\Framework\App\FrontController->getActionResponse() called at [vendor/magento/framework/App/FrontController.php:212]
+#25 Magento\Framework\App\FrontController->processRequest() called at [vendor/magento/framework/App/FrontController.php:147]
+#26 Magento\Framework\App\FrontController->dispatch() called at [vendor/magento/framework/Interception/Interceptor.php:58]
+#27 Magento\Framework\App\FrontController\Interceptor->___callParent() called at [vendor/magento/framework/Interception/Interceptor.php:138]
+#28 Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}() called at [vendor/magento/module-store/App/FrontController/Plugin/RequestPreprocessor.php:99]
+#29 Magento\Store\App\FrontController\Plugin\RequestPreprocessor->aroundDispatch() called at [vendor/magento/framework/Interception/Interceptor.php:135]
+#30 Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}() called at [vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php:75]
+#31 Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch() called at [vendor/magento/framework/Interception/Interceptor.php:135]
+#32 Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}() called at [vendor/magento/framework/Interception/Interceptor.php:153]
+#33 Magento\Framework\App\FrontController\Interceptor->___callPlugins() called at [generated/code/Magento/Framework/App/FrontController/Interceptor.php:23]
+#34 Magento\Framework\App\FrontController\Interceptor->dispatch() called at [vendor/magento/framework/App/Http.php:116]
+#35 Magento\Framework\App\Http->launch() called at [vendor/magento/framework/App/Bootstrap.php:264]
+#36 Magento\Framework\App\Bootstrap->run() called at [pub/index.php:30]
+</pre> [] []
+[2023-06-19T07:21:55.597367+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:21:55.598414+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:21:55.599326+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:21:55.600023+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T07:21:55.601138+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T07:22:05.687257+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:22:05.688097+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:22:05.688603+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:22:05.689175+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T07:22:05.689864+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T07:22:54.405773+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:22:54.406576+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:22:54.407102+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:22:54.407705+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T07:22:54.408495+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T07:23:12.298642+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:23:12.299591+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:23:12.300672+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:23:12.301364+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T07:23:12.302262+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T07:25:24.968603+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:25:24.969361+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:25:24.969855+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:25:24.970387+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T07:25:24.971125+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T07:25:27.165598+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:25:27.166787+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:25:27.167929+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:25:27.168851+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:25:27.169777+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:25:27.170651+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:25:35.328986+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:25:35.329784+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:25:35.330367+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T07:25:35.331448+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T07:25:35.332427+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T08:40:01.493495+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:40:01.494429+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:40:01.495042+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:40:01.495741+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T08:40:01.496519+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T08:40:09.762723+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:40:09.763652+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:40:09.764386+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:40:09.765330+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T08:40:09.766271+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T08:40:57.731856+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:40:57.732516+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:40:57.733038+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:40:57.733794+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T08:40:57.735145+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T08:41:02.685915+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:41:02.686550+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:41:02.687384+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:41:02.688051+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T08:41:02.688791+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T08:41:46.032913+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:41:46.033540+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:41:46.034132+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:41:46.034762+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T08:41:46.035463+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T08:41:56.003735+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:41:56.004539+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:41:56.005541+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:41:56.006200+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T08:41:56.007164+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T08:42:25.240755+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:42:25.241373+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:42:25.242154+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:42:25.242881+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T08:42:25.243808+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T08:42:34.068270+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:42:34.069198+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:42:34.070091+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:42:34.070908+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T08:42:34.072236+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T08:42:41.440052+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:42:41.440843+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:42:41.441678+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:42:41.442305+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T08:42:41.442989+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T08:43:26.945126+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:43:26.946208+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:43:26.947266+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:43:26.948429+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T08:43:26.949859+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T08:43:35.221514+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:43:35.222395+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:43:35.223070+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:43:35.223814+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T08:43:35.225424+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T08:45:31.657455+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:45:31.658527+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:45:31.659461+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:45:31.660800+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T08:45:31.661570+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T08:45:37.352802+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:45:37.353655+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:45:37.354258+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T08:45:37.354840+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T08:45:37.355497+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T09:25:20.379413+00:00] main.ERROR: Impossible to process constructor argument Parameter #0 [ <required> Turiknox\CustomTotal\Helper\Data $helper ] of SimplifiedMagento\FirstModule\Model\Total\Custom class
+#0 /var/www/html/magento2/setup/src/Magento/Setup/Module/Di/Code/Reader/ClassReaderDecorator.php(35): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#1 /var/www/html/magento2/setup/src/Magento/Setup/Module/Di/Code/Reader/Decorator/Area.php(53): Magento\Setup\Module\Di\Code\Reader\ClassReaderDecorator->getConstructor()
+#2 /var/www/html/magento2/setup/src/Magento/Setup/Module/Di/App/Task/Operation/Area.php(116): Magento\Setup\Module\Di\Code\Reader\Decorator\Area->getList()
+#3 /var/www/html/magento2/setup/src/Magento/Setup/Module/Di/App/Task/Operation/Area.php(87): Magento\Setup\Module\Di\App\Task\Operation\Area->getDefinitionsCollection()
+#4 /var/www/html/magento2/setup/src/Magento/Setup/Module/Di/App/Task/Manager.php(56): Magento\Setup\Module\Di\App\Task\Operation\Area->doOperation()
+#5 /var/www/html/magento2/setup/src/Magento/Setup/Console/Command/DiCompileCommand.php(216): Magento\Setup\Module\Di\App\Task\Manager->process()
+#6 /var/www/html/magento2/vendor/symfony/console/Command/Command.php(298): Magento\Setup\Console\Command\DiCompileCommand->execute()
+#7 /var/www/html/magento2/vendor/symfony/console/Application.php(1040): Symfony\Component\Console\Command\Command->run()
+#8 /var/www/html/magento2/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand()
+#9 /var/www/html/magento2/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#10 /var/www/html/magento2/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#11 /var/www/html/magento2/bin/magento(23): Symfony\Component\Console\Application->run()
+#12 {main} [] []
+[2023-06-19T09:33:39.461175+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T09:33:39.462499+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T09:33:39.463232+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T09:33:39.463920+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T09:33:39.464745+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T09:33:44.440093+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T09:33:44.440728+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T09:33:44.441293+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T09:33:44.442226+00:00] main.INFO: Broken reference: the 'skip_gallery_before' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_before.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-19T09:33:44.442755+00:00] main.INFO: Broken reference: the 'skip_gallery_after' tries to reorder itself towards 'product.info.media.image', but their parents are different: 'skip_gallery_after.wrapper' and 'product.info.media' respectively. [] []
+[2023-06-19T09:33:48.943324+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T09:33:48.944071+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T09:33:48.944762+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T09:33:48.945819+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T09:33:48.947570+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T09:44:06.991074+00:00] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE1_3e13260053f56644d576f1e487266f9a1_page_layout_merged and handles default, checkout_cart_index: Please correct the XML data and try again. Element 'item', attribute 'translate': The attribute 'translate' is not allowed.
+Line: 1596
+ [] []
+[2023-06-19T09:44:06.991719+00:00] main.ERROR: Element 'item', attribute 'translate': The attribute 'translate' is not allowed.
+Line: 1596
+ [] []
+[2023-06-19T10:09:29.289245+00:00] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE1_3e13260053f56644d576f1e487266f9a1_page_layout_merged and handles default, checkout_cart_index: Please correct the XML data and try again. Element 'item', attribute 'translate': The attribute 'translate' is not allowed.
+Line: 1596
+ [] []
+[2023-06-19T10:09:29.290420+00:00] main.ERROR: Element 'item', attribute 'translate': The attribute 'translate' is not allowed.
+Line: 1596
+ [] []
+[2023-06-19T10:14:08.720250+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T10:14:08.721021+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T10:14:08.721725+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T10:14:08.722708+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T10:14:08.723837+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T10:42:50.286131+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T10:42:50.287165+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T10:42:50.287739+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T10:42:50.288338+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T10:42:50.289058+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T10:59:36.333347+00:00] main.INFO: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T10:59:36.334242+00:00] main.ERROR: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T11:20:30.704693+00:00] main.INFO: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T11:20:30.705992+00:00] main.ERROR: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T11:21:59.262230+00:00] main.INFO: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T11:21:59.263383+00:00] main.ERROR: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T11:22:00.389889+00:00] main.INFO: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T11:22:00.391212+00:00] main.ERROR: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T11:22:01.475598+00:00] main.INFO: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T11:22:01.476912+00:00] main.ERROR: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T11:22:01.867423+00:00] main.INFO: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T11:22:01.868183+00:00] main.ERROR: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T11:22:02.889700+00:00] main.INFO: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T11:22:02.890618+00:00] main.ERROR: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T11:40:44.378077+00:00] main.INFO: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T11:40:44.379249+00:00] main.ERROR: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T11:45:02.778434+00:00] main.INFO: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T11:45:02.779391+00:00] main.ERROR: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T11:45:04.205214+00:00] main.INFO: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T11:45:04.206084+00:00] main.ERROR: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T11:45:29.400482+00:00] main.INFO: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T11:45:29.401511+00:00] main.ERROR: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T11:45:30.378585+00:00] main.INFO: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T11:45:30.379862+00:00] main.ERROR: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T12:02:47.481836+00:00] main.INFO: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+Start tag expected, '<' not found
+ Line: 1 [] []
+[2023-06-19T12:02:47.482593+00:00] main.ERROR: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+Start tag expected, '<' not found
+ Line: 1 [] []
+[2023-06-19T12:06:08.877385+00:00] main.INFO: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T12:06:08.878285+00:00] main.ERROR: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_cart_index.xml' is not valid.
+attributes construct error
+ Line: 1
+Couldn't find end of Start Tag page line 1
+ Line: 1
+Extra content at the end of the document
+ Line: 1 [] []
+[2023-06-19T12:11:11.949907+00:00] main.INFO: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_index_index.xml' is not valid.
+attributes construct error
+ Line: 2
+Couldn't find end of Start Tag page line 2
+ Line: 2
+Extra content at the end of the document
+ Line: 2 [] []
+[2023-06-19T12:11:11.950676+00:00] main.ERROR: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/checkout_index_index.xml' is not valid.
+attributes construct error
+ Line: 2
+Couldn't find end of Start Tag page line 2
+ Line: 2
+Extra content at the end of the document
+ Line: 2 [] []
+[2023-06-19T12:13:13.656150+00:00] main.INFO: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/sales_order_view.xml' is not valid.
+attributes construct error
+ Line: 2
+Couldn't find end of Start Tag page line 2
+ Line: 2
+Extra content at the end of the document
+ Line: 2 [] []
+[2023-06-19T12:13:13.657026+00:00] main.ERROR: Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/FirstModule/view/frontend/layout/sales_order_view.xml' is not valid.
+attributes construct error
+ Line: 2
+Couldn't find end of Start Tag page line 2
+ Line: 2
+Extra content at the end of the document
+ Line: 2 [] []
+[2023-06-19T12:14:11.760616+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T12:14:11.761330+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T12:14:11.761963+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T12:14:11.762649+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T12:14:11.763614+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T13:08:34.919240+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T13:08:34.920535+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T13:08:34.921846+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T13:08:34.922703+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T13:08:34.923471+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T13:08:34.924074+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T13:08:44.124342+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T13:08:44.124981+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T13:08:44.125515+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T13:08:44.126103+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T13:08:44.126808+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []
+[2023-06-19T13:08:54.037454+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T13:08:54.038822+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T13:08:54.040134+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2023-06-19T13:08:54.040919+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' element cannot be added as child to 'checkout.cart.item.renderers.gift-card.actions', because the latter doesn't exist [] []
+[2023-06-19T13:08:54.042175+00:00] main.INFO: Broken reference: the 'checkout.cart.item.renderers.gift-card.actions.gift_options' tries to reorder itself towards '', but their parents are different: 'checkout.cart.item.renderers.gift-card.actions' and '' respectively. [] []

@@ -3,4 +3,6 @@
 
     <preference for="Company\Module\Api\GetCustomerInterface" type="Company\Module\Model\GetCustomer" />
 
+
+     
 </config>
