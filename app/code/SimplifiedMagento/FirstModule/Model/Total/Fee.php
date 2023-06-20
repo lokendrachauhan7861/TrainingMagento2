@@ -66,7 +66,7 @@ public function fetch(\Magento\Quote\Model\Quote $quote, Total $total, $per = 1)
 $getCharged1Per = $total->getSubtotal()*$per/100;
 return [
 'code'=>'fee',
-'title'=>'Custom Fee (1%)',
+'title'=>'Admin Fee (1%)',
 'value'=>$getCharged1Per
 ];
 }
@@ -77,6 +77,6 @@ return [
 */
 public function getLabel()
 {
-return __('Custom Fee (1%)');
+return __('Admin Fee (1%)');
 }
 }

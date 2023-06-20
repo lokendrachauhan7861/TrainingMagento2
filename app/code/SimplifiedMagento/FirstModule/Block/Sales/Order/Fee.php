@@ -89,7 +89,7 @@ $fee = new \Magento\Framework\DataObject(
 'code'=>'fee',
 'strong'=>false,
 'value'=>1,
-'label'=>__('Custom Fee (1%)'),
+'label'=>__('Admin Fee (1%)'),
 ]
 );
 $parent->addTotal($fee, 'fee');

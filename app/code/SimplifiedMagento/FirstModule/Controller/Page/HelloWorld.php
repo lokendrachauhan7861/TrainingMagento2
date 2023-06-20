@@ -32,8 +32,7 @@ class HelloWorld extends \Magento\Framework\App\Action\Action
     {
 
         $message = new \Magento\Framework\DataObject(array("greeting"=>"Good afternoon"));
-        $this->_eventmanager->dispatch( eventName: 'custom_event');
-        // eventName: 'custom_event',array('greeting'=>$message)
+        $this->_eventmanager->dispatch('custom_event', ['greeting'=>$message]);
         echo $message->getGreeting();
         // $product = $this->productFactory->create()->load( modelId: 1);
         // $product->setName( name: "Iphone 6");

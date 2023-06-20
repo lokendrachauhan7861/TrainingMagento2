@@ -4,6 +4,6 @@
     </event>
 
      <event name="custom_event">
-        <observer name="greeting" instance="SimplifiedMagento\FirstModule\Observer\OurObserver" />
+        <observer name="greeting11" instance="SimplifiedMagento\FirstModule\Observer\OurObserver" />
     </event>
 </config>

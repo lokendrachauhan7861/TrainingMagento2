@@ -11,7 +11,7 @@ class OurObserver implements ObserverInterface
      {
            
        $message = $observer->getData( key: 'greeting');
-       $message->setGreeting('Good Evening');
+       $message->setGreeting('Good Evening !');
      }
 
 }
