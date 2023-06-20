@@ -1,5 +1,8 @@
 <?php
 namespace SimplifiedMagento\FirstModule\Model\Total;
+
+use \Magento\Quote\Model\Quote\Address\Total;
+
 class Fee extends \Magento\Quote\Model\Quote\Address\Total\AbstractTotal
 {
 /**
@@ -21,8 +24,9 @@ public function collect(
 ){
 parent::collect($quote, $shippingAssignment, $total);
 $exist_amount = 0;
-$fee = 10;
-$balance = $fee - $exist_amount;
+$per = 1;
+$balance = $total->getSubtotal()*$per/100;
+//$balance2 = $total->getGrandTotal()*$balance/100;
 $total->setTotalAmount('fee', $balance);
 $total->setBaseTotalAmount('fee', $balance);
 $total->setFee($balance);
@@ -57,12 +61,13 @@ $total->setBaseSubtotalInclTax(0);
 * @return array
 * @SuppressWarnings(PHPMD.UnusedFormalParameter)
 */
-public function fetch(\Magento\Quote\Model\Quote $quote, \Magento\Quote\Model\Quote\Address\Total $total)
+public function fetch(\Magento\Quote\Model\Quote $quote, Total $total, $per = 1)
 {
+$getCharged1Per = $total->getSubtotal()*$per/100;
 return [
 'code'=>'fee',
-'title'=>'Custom Fee',
-'value'=>10
+'title'=>'Custom Fee (1%)',
+'value'=>$getCharged1Per
 ];
 }
 /**
@@ -72,6 +77,6 @@ return [
 */
 public function getLabel()
 {
-return __('Custom Fee');
+return __('Custom Fee (1%)');
 }
 }

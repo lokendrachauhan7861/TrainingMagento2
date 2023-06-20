@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1687176851;s:6:"expire";i:1718712851;s:4:"tags";s:37:"f73_LAYOUT_GENERAL_CACHE_TAG,f73_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1687239651;s:6:"expire";i:1718775651;s:4:"tags";s:37:"f73_LAYOUT_GENERAL_CACHE_TAG,f73_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -6932,7 +6932,7 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1687176851;s:6:"expire";i:1718712851;s:4:"t
                         <item name="sortOrder" xsi:type="string">20</item>
                         <item name="config" xsi:type="array">
                            <item name="template" xsi:type="string">SimplifiedMagento_FirstModule/checkout/cart/totals/fee</item>
-                           <item name="title" translate="true" xsi:type="string">Custom Fee</item>
+                           <item name="title" translate="true" xsi:type="string">Custom Fee (1%)</item>
                         </item>
                      </item>
                   </item>
@@ -6960,7 +6960,7 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1687176851;s:6:"expire";i:1718712851;s:4:"t
                                           <item name="sortOrder" xsi:type="string">20</item>
                                           <item name="config" xsi:type="array">
                                              <item name="template" xsi:type="string">SimplifiedMagento_FirstModule/checkout/cart/totals/fee</item>
-                                             <item name="title" translate="true" xsi:type="string">Custom Fee</item>
+                                             <item name="title" translate="true" xsi:type="string">Custom Fee (1%)</item>
                                           </item>
                                        </item>
                                     </item>

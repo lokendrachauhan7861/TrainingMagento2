@@ -10,8 +10,8 @@ class OurObserver implements ObserverInterface
     public function execute(Observer $observer)
      {
            
-    //    $message = $observer->getData( key: 'greeting');
-    //    $message->setGreeting('Good Evening');
+       $message = $observer->getData( key: 'greeting');
+       $message->setGreeting('Good Evening');
      }
 
 }
