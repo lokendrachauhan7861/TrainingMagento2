@@ -15,9 +15,13 @@ xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xs
      <preference for="SimplifiedMagento\FirstModule\Api\Brightness" 
     type="SimplifiedMagento\FirstModule\Model\Medium" />
 
-     <type name="Magento\Catalog\Model\Product">
-        <plugin name="before_set_name" type="SimplifiedMagento\FirstModule\Plugin\PluginSolution" 
+    <type name="Magento\Catalog\Model\Product">
+     <plugin name="before_set_name" type="SimplifiedMagento\FirstModule\Plugin\PluginSolution" 
         sortOrder="10"/>
+
+    <arguments>
+     <argument name="heavyService" xsi:type="object">SimplifiedMagento\FirstModule\Model\HeavyService\Proxy</argument>
+    </arguments>
     </type>
 
      <!-- <type name="SimplifiedMagento\FirstModule\Controller\Page\HelloWorld">
@@ -32,7 +36,13 @@ xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xs
     </arguments>
     </virtualType>
 
-     <type name = "SimplifiedMagento\FirstModule\Model\Pencil">
+     <!-- <type name = "SimplifiedMagento\FirstModule\Controller\Page\HelloWorld">
+    <arguments>
+    <argument name="heavyService" xsi:type="object">SimplifiedMagento\FirstModule\Model\HeavyService\Proxy</argument>
+    </arguments>
+    </type> -->
+
+      <type name = "SimplifiedMagento\FirstModule\Model\Pencil">
     <arguments>
     <argument name="color" xsi:type="object">SimplifiedMagento\FirstModule\Model\Red</argument>
     <argument name="size" xsi:type="object">SimplifiedMagento\FirstModule\Model\Big</argument>

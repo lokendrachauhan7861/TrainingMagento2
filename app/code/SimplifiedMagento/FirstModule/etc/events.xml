@@ -1,9 +1,15 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
-    <event name="checkout_submit_all_after">
+    <!-- <event name="checkout_submit_all_after">
         <observer name="log_text" instance="SimplifiedMagento\FirstModule\Observer\LogTextAtCheckout" />
+    </event> -->
+
+    <!-- <event name="custom_event">
+        <observer name="greeting11" instance="SimplifiedMagento\FirstModule\Observer\OurObserver" />
+    </event>  -->
+
+     <event name="catalog_product_save_before">
+        <observer name="add_text_to_product_title" instance="SimplifiedMagento\FirstModule\Observer\AddTextProductObserver" />
     </event>
 
-     <event name="custom_event">
-        <observer name="greeting11" instance="SimplifiedMagento\FirstModule\Observer\OurObserver" />
-    </event>
+
 </config>

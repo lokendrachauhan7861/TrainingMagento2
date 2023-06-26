@@ -47,6 +47,8 @@ $total->setTotalAmount('shipping_discount_tax_compensation', 0);
 $total->setBaseTotalAmount('shipping_discount_tax_compensation', 0);
 $total->setSubtotalInclTax(0);
 $total->setBaseSubtotalInclTax(0);
+
+
 }
 /**
 * @param \Magento\Quote\Model\Quote $quote
