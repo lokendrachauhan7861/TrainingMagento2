@@ -475,7 +475,7 @@
         'sortOrder' => 100,
         'instance' => 'Magento\\Bundle\\Model\\Plugin\\Frontend\\ProductIdentitiesExtender',
       ),
-      'before_set_name' => 
+      'after_set_name' => 
       array (
         'sortOrder' => 10,
         'instance' => 'SimplifiedMagento\\FirstModule\\Plugin\\PluginSolution',
@@ -4302,7 +4302,7 @@
         'sortOrder' => 0,
         'instance' => 'Magento\\Swatches\\Model\\Plugin\\Product',
       ),
-      'before_set_name' => 
+      'after_set_name' => 
       array (
         'sortOrder' => 10,
         'instance' => 'SimplifiedMagento\\FirstModule\\Plugin\\PluginSolution',
@@ -9901,14 +9901,14 @@
     array (
       1 => 
       array (
-        0 => 'before_set_name',
+        0 => 'after_set_name',
       ),
     ),
     'Magento\\Catalog\\Model\\Product_getName___self' => 
     array (
       4 => 
       array (
-        0 => 'before_set_name',
+        0 => 'after_set_name',
       ),
     ),
     'Magento\\Cms\\Model\\PageRepository\\ValidationComposite_save___self' => 

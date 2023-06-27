@@ -8,10 +8,10 @@ class Interceptor extends \SimplifiedMagento\FirstModule\Console\Command\HelloWo
 {
     use \Magento\Framework\Interception\Interceptor;
 
-    public function __construct(?string $name = null)
+    public function __construct(\Magento\Catalog\Model\ResourceModel\Product\CollectionFactory $collectionFactory, \Magento\Catalog\Model\Product\Action $action, \Magento\Store\Model\StoreManagerInterface $storeData)
     {
         $this->___init();
-        parent::__construct($name);
+        parent::__construct($collectionFactory, $action, $storeData);
     }
 
     /**

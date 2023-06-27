@@ -16,7 +16,7 @@ xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xs
     type="SimplifiedMagento\FirstModule\Model\Medium" />
 
     <type name="Magento\Catalog\Model\Product">
-     <plugin name="before_set_name" type="SimplifiedMagento\FirstModule\Plugin\PluginSolution" 
+     <plugin name="after_set_name" type="SimplifiedMagento\FirstModule\Plugin\PluginSolution" 
         sortOrder="10"/>
 
     <arguments>

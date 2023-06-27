@@ -328,6 +328,7 @@ return [
         'Magento_WishlistAnalytics' => 1,
         'Magento_WishlistGraphQl' => 1,
         'SimplifiedMagento_FirstModule' => 1,
+        'SimplifiedMagento_RequestFlow' => 1,
         'Company_Module' => 1,
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,

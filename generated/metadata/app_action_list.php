@@ -1295,4 +1295,6 @@
   'paypal\\braintree\\controller\\paypal\\saveshippingmethod' => 'PayPal\\Braintree\\Controller\\Paypal\\SaveShippingMethod',
   'paypal\\braintree\\controller\\webhook\\fraudprotection' => 'PayPal\\Braintree\\Controller\\Webhook\\FraudProtection',
   'simplifiedmagento\\firstmodule\\controller\\page\\helloworld' => 'SimplifiedMagento\\FirstModule\\Controller\\Page\\HelloWorld',
+  'simplifiedmagento\\requestflow\\controller\\page\\customnoroute' => 'SimplifiedMagento\\RequestFlow\\Controller\\Page\\CustomNoRoute',
+  'simplifiedmagento\\requestflow\\controller\\page\\customnoroutehandler' => 'SimplifiedMagento\\RequestFlow\\Controller\\Page\\CustomNoRouteHandler',
 );
