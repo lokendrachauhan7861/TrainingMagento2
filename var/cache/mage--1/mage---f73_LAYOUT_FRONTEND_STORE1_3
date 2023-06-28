@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1687852396;s:6:"expire";i:1719388396;s:4:"tags";s:37:"f73_LAYOUT_GENERAL_CACHE_TAG,f73_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1687954649;s:6:"expire";i:1719490649;s:4:"tags";s:37:"f73_LAYOUT_GENERAL_CACHE_TAG,f73_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -6991,6 +6991,16 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1687852396;s:6:"expire";i:1719388396;s:4:"t
    <referenceContainer name="order_totals">
       <block class="SimplifiedMagento\FirstModule\Block\Sales\Order\Fee" name="fee"/>
    </referenceContainer>
+</body>
+</handle><handle id="contactus_index_index"><body>
+   <referenceBlock name="page.main.title">
+      <action method="setPageTitle">
+         <argument translate="true" name="title" xsi:type="string">Custom ContactUs Form Page</argument>
+      </action>
+      <referenceContainer name="content">
+         <block class="SimplifiedMagento\RequestFlow\Block\Booking" name="contactus.Contactus" template="SimplifiedMagento_RequestFlow::contactUs.phtml"/>
+      </referenceContainer>
+   </referenceBlock>
 </body>
 </handle><handle id="bookinglist_index_bookinglist" layout="2columns-left"><head>
    <title>Booking List</title>

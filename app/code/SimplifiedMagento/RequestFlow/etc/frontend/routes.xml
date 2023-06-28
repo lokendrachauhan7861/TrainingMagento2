@@ -10,5 +10,8 @@
         <route id="noroutefound" frontName="noroutefound">
             <module name="SimplifiedMagento_RequestFlow" />
         </route>
+         <route id="contactus" frontName="contactus">
+            <module name="SimplifiedMagento_RequestFlow" />
+        </route>
     </router>
 </config>

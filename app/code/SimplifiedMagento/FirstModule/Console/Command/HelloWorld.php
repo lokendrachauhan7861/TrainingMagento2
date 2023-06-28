@@ -41,7 +41,6 @@ class HelloWorld extends Command
     {
         $activeStatus = 1;
         $deActiveStatus = 2;
-        //$output->writeln('Hello World,'.$input->getArgument('name'));
         $collection = $this->collectionFactory->create()->addAttributeToSelect('status');
         $storeId = $this->storeData->getStore()->getId();
         $productData = $collection->load();
