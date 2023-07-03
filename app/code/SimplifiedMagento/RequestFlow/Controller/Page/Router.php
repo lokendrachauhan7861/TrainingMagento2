@@ -51,7 +51,7 @@ class Router implements RouterInterface
        }
 
         
-       if (strpos($identifier, 'contactUs') !== false) {
+       if (strpos($identifier, 'contact-us') !== false) {
             $request->setModuleName('contactus');
             $request->setControllerName('index');
             $request->setActionName('index');

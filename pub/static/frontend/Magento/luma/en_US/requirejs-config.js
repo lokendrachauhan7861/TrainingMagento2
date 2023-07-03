@@ -1035,6 +1035,20 @@ var config = {
 require.config(config);
 })();
 (function() {
+var config = {
+    config: {
+        mixins: {
+            'mage/validation': {
+                'SimplifiedMagento_RequestFlow/js/validation': true
+            }
+        }
+    }
+}
+
+
+require.config(config);
+})();
+(function() {
 /**
  * Config to pull in all the relevant Braintree JS SDKs
  * @type {{paths: {braintreePayPalInContextCheckout: string, braintreePayPalCheckout: string, braintreeVenmo: string, braintreeHostedFields: string, braintreeDataCollector: string, braintreeThreeDSecure: string, braintreeGooglePay: string, braintreeApplePay: string, braintreeAch: string, braintreeLpm: string, googlePayLibrary: string}, map: {"*": {braintree: string}}}}

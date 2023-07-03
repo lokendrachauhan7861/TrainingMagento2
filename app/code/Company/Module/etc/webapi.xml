@@ -2,7 +2,7 @@
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
     <!-- get booking list Api -->
     <route url="/V1/get/bookingList/" method="GET">
-        <service class="Company\Module\Api\GetCustomerInterface" method="getData" />
+        <service class="Company\Module\Api\GetBookingInterface" method="getData" />
         <resources>
             <resource ref="anonymous" />
         </resources>

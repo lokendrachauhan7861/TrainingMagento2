@@ -5,21 +5,21 @@
 </head>
 <body>
 
-<form action="/action_page.php" method="post">
+<form data-mage-init='{"validation": {}}' class="form" id="custom-form" action="/action_page.php" method="post">
   <div class="container">
-    <label for="name"><b>Name</b></label>
-    <input id="name-validation" type="text" placeholder="Enter Name" name="name" required>
-    <p style="color:red;">Please Enter Alphabets Charecter Only !</p>
 
+    <label for="name"><b>Name</b></label>
+    <input  type="text" placeholder="Enter Name" name="name" data-validate="{required:true, 'validate-alpha':true}">
+   
     <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="txtEmail" onkeyup="ValidateEmail();">
-    <p id="lblError" style="color: red"></p>
+    <input type="text" placeholder="Enter Email" name="email" id="email_address" data-validate="{required:true, 'validate-email':true}">
+   
 
     <label for="sub"><b>Subject</b></label>
-    <input type="text" placeholder="Enter Subject" name="subject" required>
+    <input type="text" placeholder="Enter Subject" name="subject" data-validate="{required:true}">
 
     <label for="desc"><b>Description</b></label>
-    <textarea id="description" name="description" rows="4" cols="50" placeholder="Description"></textarea>
+    <textarea id="description" name="description" rows="4" cols="50" placeholder="Description" data-validate="{required:true}"></textarea>
         
     <button type="submit">Submit</button>
    
@@ -30,32 +30,17 @@
 </body>
 </html>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-<script>
-    function nameInput(event) {
-    var value = String.fromCharCode(event.which);
-    var pattern = new RegExp(/[a-zåäö ]/i);
-    return pattern.test(value);
-    }
+<script type="text/javascript">
+require([
+    'jquery',
+    'mage/mage'
+], function($){
 
-    $('#name-validation').bind('keypress', nameInput);
+   var dataForm = $('#custom-form');
+   dataForm.mage('validation', {});
 
-    function ValidateEmail() {
-        var email = document.getElementById("txtEmail").value;
-        var lblError = document.getElementById("lblError");
-        lblError.innerHTML = "";
-        var expr = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
-        if (!expr.test(email)) {
-            lblError.innerHTML = "Please Enter Valid Email Address.";
-        }
-    }
-
-    $("#description").prop('maxlength', '250');
-
-
-   
-
+});
 </script>
 
 <style>
