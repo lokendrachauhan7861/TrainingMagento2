@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1688381711;s:6:"expire";i:1719917711;s:4:"tags";s:37:"f73_LAYOUT_GENERAL_CACHE_TAG,f73_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1688644284;s:6:"expire";i:1720180284;s:4:"tags";s:37:"f73_LAYOUT_GENERAL_CACHE_TAG,f73_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -7002,6 +7002,9 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1688381711;s:6:"expire";i:1719917711;s:4:"t
       </referenceContainer>
    </referenceBlock>
 </body>
+<head>
+   <css src="SimplifiedMagento_RequestFlow::css/custom.css" rel="stylesheet" type="text/css"/>
+</head>
 </handle><handle id="bookinglist_index_bookinglist" layout="2columns-left"><head>
    <title>Booking List</title>
 </head>
@@ -7020,6 +7023,15 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1688381711;s:6:"expire";i:1719917711;s:4:"t
       <block class="Company\Module\Block\Booking" name="companymodule.booking" template="Company_Module::booking.phtml"/>
    </referenceContainer>
 </body>
+</handle><handle id="catalog_product_view" layout="1column"><body>
+   <referenceBlock name="product.info.addtocart">
+      <block class="Kellton\Assignment8\Block\CheckUserLogin" name="product.info.quote" template="Kellton_Assignment8::catalog/product/view/custom.phtml"/>
+   </referenceBlock>
+</body>
+<head>
+   <script src="Kellton_Assignment8::js/main.js"/>
+   <css src="Kellton_Assignment8::css/custome-main.css" rel="stylesheet" type="text/css"/>
+</head>
 </handle><handle id="braintree_googlepay_review" layout="1column"><head>
    <title>Review Order</title>
 </head>

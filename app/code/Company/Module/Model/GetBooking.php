@@ -5,13 +5,16 @@ use Company\Module\Api\GetBookingInterface;
 class GetBooking implements GetBookingInterface
 {
 
-     /**
-     * {@inheritdoc}
-     */
+    // private $getBookingData;
+
+    // public function __construct(GetBookingInterface $getBookingData)
+    // {
+    //     $this->getBookingData = $getBookingData;
+    // }
+
 
     public function getData()
     {  
-         
         $objectManager = \Magento\Framework\App\ObjectManager::getInstance(); // Instance of object manager
         $resource = $objectManager->get('Magento\Framework\App\ResourceConnection');
         $connection = $resource->getConnection();
@@ -26,5 +29,7 @@ class GetBooking implements GetBookingInterface
        return $data;
 
     }
+
+   
 
 }

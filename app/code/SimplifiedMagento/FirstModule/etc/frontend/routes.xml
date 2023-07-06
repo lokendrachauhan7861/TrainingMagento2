@@ -10,5 +10,6 @@
         <route id="tutorial" frontName="tutorial">
             <module name="SimplifiedMagento_FirstModule" />
         </route>
+       
     </router>
 </config>

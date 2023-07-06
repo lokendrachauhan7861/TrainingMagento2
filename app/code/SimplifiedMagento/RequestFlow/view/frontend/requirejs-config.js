@@ -1,10 +1,10 @@
-var config = {
-    config: {
-        mixins: {
-            'mage/validation': {
-                'SimplifiedMagento_RequestFlow/js/validation': true
-            }
-        }
-    }
-}
 
+require([
+    'jquery',
+    'mage/mage'
+], function($){
+
+   var dataForm = $('#custom-form');
+   dataForm.mage('validation', {});
+
+});

@@ -2,6 +2,7 @@
   'company\\module\\controller\\index\\booking' => 'Company\\Module\\Controller\\Index\\Booking',
   'company\\module\\controller\\index\\bookinglist' => 'Company\\Module\\Controller\\Index\\BookingList',
   'company\\module\\controller\\index\\savebooking' => 'Company\\Module\\Controller\\Index\\SaveBooking',
+  'kellton\\assignment8\\controller\\page\\saveproductreview' => 'Kellton\\Assignment8\\Controller\\Page\\SaveProductReview',
   'magento\\adminadobeims\\controller\\adminhtml\\oauth\\imscallback' => 'Magento\\AdminAdobeIms\\Controller\\Adminhtml\\OAuth\\ImsCallback',
   'magento\\adminadobeims\\controller\\adminhtml\\oauth\\imsreauthcallback' => 'Magento\\AdminAdobeIms\\Controller\\Adminhtml\\OAuth\\ImsReauthCallback',
   'magento\\adminanalytics\\controller\\adminhtml\\config\\disableadminusage' => 'Magento\\AdminAnalytics\\Controller\\Adminhtml\\Config\\DisableAdminUsage',

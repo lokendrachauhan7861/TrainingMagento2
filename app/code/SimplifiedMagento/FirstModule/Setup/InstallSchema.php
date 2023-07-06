@@ -2,72 +2,62 @@
 
 namespace SimplifiedMagento\FirstModule\Setup;
 
-use \Magento\Framework\Setup\InstallSchemaInterface;
-use \Magento\Framework\Setup\ModuleContextInterface;
-use \Magento\Framework\Setup\SchemaSetupInterface;
-use \Magento\Framework\DB\Ddl\Table;
+use Magento\Framework\Setup\InstallSchemaInterface;
+use Magento\Framework\Setup\SchemaSetupInterface;
+use Magento\Framework\Setup\ModuleContextInterface;
+use Magento\Framework\DB\Ddl\Table;
 
-/**
- * Class InstallSchema
- *
- * @package Thecoachsmb\Mymodule\Setup
- */
 class InstallSchema implements InstallSchemaInterface
 {
-    /**
-     * Install Articles table
-     *
-     * @param SchemaSetupInterface $setup
-     * @param ModuleContextInterface $context
-     */
+
     public function install(SchemaSetupInterface $setup, ModuleContextInterface $context)
     {
-        $setup->startSetup();
-
-        $tableName = $setup->getTable('simplifiedMagento_user');
-
-        if ($setup->getConnection()->isTableExists($tableName) != true) {
-            $table = $setup->getConnection()
-                ->newTable($tableName)
+        $installer = $setup;
+        $installer->startSetup();
+    
+    
+            $table = $installer->getConnection()->newTable(
+                $installer->getTable('product_review')
+            )
                 ->addColumn(
-                    'id',
+                    'id', 
                     Table::TYPE_INTEGER,
                     null,
                     [
                         'identity' => true,
-                        'unsigned' => true,
                         'nullable' => false,
-                        'primary' => true
+                        'primary'  => true,
+                        'unsigned' => true,
                     ],
                     'ID'
                 )
                 ->addColumn(
-                    'firstName',
+                    'product_id',
+                    Table::TYPE_INTEGER,
+                    20,
+                    ['nullable => false'],
+                    'Product Id'
+                )
+                ->addColumn(
+                    'user_id',
+                    Table::TYPE_INTEGER,
+                    20,
+                    [],
+                    'User Id'
+                )
+                ->addColumn(
+                    'email_id',
                     Table::TYPE_TEXT,
                     255,
-                    ['nullable' => false],
-                    'Title'
+                    [],
+                    'Email Id'
                 )
                 ->addColumn(
-                    'lastName',
+                    'status',
                     Table::TYPE_TEXT,
-                    null,
-                    ['nullable' => false],
-                    'Content'
-                )
-                ->addColumn(
-                    'email',
-                    Table::TYPE_TEXT,
-                    null,
-                    ['nullable' => false],
-                    'Content'
-                )
-                ->addColumn(
-                    'dob',
-                    Table::TYPE_TEXT,
-                    null,
-                    ['nullable' => false],
-                    'Content'
+                    '255',
+                    [],
+                    'Status'
                 )
                 ->addColumn(
                     'created_at',
@@ -75,11 +65,19 @@ class InstallSchema implements InstallSchemaInterface
                     null,
                     ['nullable' => false, 'default' => Table::TIMESTAMP_INIT],
                     'Created At'
-                )
-                ->setComment('Thecoachsmb - Article');
-            $setup->getConnection()->createTable($table);
-        }
+                )->addColumn(
+                    'updated_at',
+                    Table::TYPE_TIMESTAMP,
+                    null,
+                    ['nullable' => false, 'default' => Table::TIMESTAMP_INIT_UPDATE],
+                    'Updated At')
+                ->setComment('Product Review');
+            $installer->getConnection()->createTable($table);
 
-        $setup->endSetup();
+        
+        
+        
+        $installer->endSetup();
     }
+    
 }

@@ -10,5 +10,6 @@ interface GetBookingInterface
      */
 
   public function getData();
+  
 
 }

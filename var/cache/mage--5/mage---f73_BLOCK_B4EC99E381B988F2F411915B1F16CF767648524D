@@ -1,6 +1,0 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1688381711;s:6:"expire";i:1688385311;s:4:"tags";s:45:"f73_BLOCK_HTML,f73_CAT_C,f73_CAT_C_3,f73_MAGE";}
-
-<nav class="navigation" data-action="navigation">
-    <ul data-mage-init='{"menu":{"responsive":true, "expanded":true, "position":{"my":"left top","at":"left bottom"}}}'>
-        <li  class="level0 nav-1 category-item first last level-top parent"><a href="http://sonal.magento.com/index.php/mobile.html"  class="level-top" ><span>Mobile</span></a><ul class="level0 submenu"><li  class="level1 nav-1-1 category-item first last"><a href="http://sonal.magento.com/index.php/mobile/samsung.html" ><span>samsung</span></a></li></ul></li>            </ul>
-</nav>

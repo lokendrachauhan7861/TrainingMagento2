@@ -13,5 +13,8 @@
 
         </referenceBlock>
     </body>
+    <head>
+         <css src="SimplifiedMagento_RequestFlow::css/custom.css" rel="stylesheet" type="text/css"  />
+    </head>
 </page>
 

@@ -1,0 +1,19 @@
+<?php
+$totalCurrentProductLike = $block->getCurrentProductCount(); // product like count
+$productId = $block->getProductId(); // customer id
+$customerId = $block->getCustomerId(); // customer id
+$checkLikeDislike = $block->checkLikeDislike(); // git likedislike value
+if($customerId > 0)
+{
+?>
+    <div>
+       <div><a >Total Like :- <span style="color:red;"><?php echo $totalCurrentProductLike; ?></span></a></div>
+        <div id="productId" data-product-id="<?php echo $productId; ?>"></div>
+        <div id="customerId" data-customer-id="<?php echo $customerId; ?>"></div>
+        <div class="button_action"><a <?php if($checkLikeDislike == 1) { ?> class="active" <?php } ?> href="javascript:;" data-val="1">Like</a></div>
+        <div class="button_action"><a <?php if($checkLikeDislike == 0) { ?> class="active" <?php } ?> href="javascript:;" data-val="0">DisLike</a></div>
+
+    </div>
+<?php 
+} 
+?>
