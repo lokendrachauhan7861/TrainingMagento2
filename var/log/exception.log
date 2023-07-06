@@ -356,3 +356,4 @@ Stack trace:
 #38 /var/www/html/magento2/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
 #39 {main} {"exception":"[object] (Magento\\Framework\\Config\\Dom\\ValidationException(code: 0): Theme layout update file '/var/www/html/magento2/app/code/SimplifiedMagento/RequestFlow/view/frontend/layout/default.xml' is not valid.
  at /var/www/html/magento2/vendor/magento/framework/View/Model/Layout/Merge.php:791)"} []
+[2023-07-06T13:23:54.883004+00:00] main.WARNING: Failed to retrieve the release notification content. {"exception":"[object] (Exception(code: 0): Resolving timed out after 5000 milliseconds at /var/www/html/magento2/vendor/magento/framework/HTTP/Client/Curl.php:427)"} []

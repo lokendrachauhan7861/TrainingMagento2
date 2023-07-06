@@ -2,9 +2,9 @@
 namespace Kellton\Assignment8\Model;
 
 /**
- * Factory class for @see \Kellton\Assignment8\Model\DataExample
+ * Factory class for @see \Kellton\Assignment8\Model\CreateRecord
  */
-class DataExampleFactory
+class CreateRecordFactory
 {
     /**
      * Object Manager instance
@@ -26,7 +26,7 @@ class DataExampleFactory
      * @param \Magento\Framework\ObjectManagerInterface $objectManager
      * @param string $instanceName
      */
-    public function __construct(\Magento\Framework\ObjectManagerInterface $objectManager, $instanceName = '\\Kellton\\Assignment8\\Model\\DataExample')
+    public function __construct(\Magento\Framework\ObjectManagerInterface $objectManager, $instanceName = '\\Kellton\\Assignment8\\Model\\CreateRecord')
     {
         $this->_objectManager = $objectManager;
         $this->_instanceName = $instanceName;
@@ -36,7 +36,7 @@ class DataExampleFactory
      * Create class instance with specified parameters
      *
      * @param array $data
-     * @return \Kellton\Assignment8\Model\DataExample
+     * @return \Kellton\Assignment8\Model\CreateRecord
      */
     public function create(array $data = [])
     {

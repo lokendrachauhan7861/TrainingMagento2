@@ -2,7 +2,7 @@
 
 namespace Kellton\Assignment8\Controller\Page;
 
-use Kellton\Assignment8\Model\DataExampleFactory;
+use Kellton\Assignment8\Model\CreateRecordFactory;
 use Magento\Framework\Controller\ResultFactory;
 use Magento\Framework\App\Action\Action;
 use Magento\Framework\App\Action\Context;
@@ -10,15 +10,15 @@ use Magento\Framework\App\Action\Context;
 class SaveProductReview extends \Magento\Framework\App\Action\Action
 {
 
-    protected $_dataExample;
+    protected $createRecord;
     protected $resultRedirect;
     public function __construct(
         Context $context,
-        DataExampleFactory  $dataExample,
+        CreateRecordFactory  $createRecord,
         ResultFactory $result
         ) {
         parent::__construct($context);
-        $this->_dataExample = $dataExample;
+        $this->createRecord = $createRecord;
         $this->resultRedirect = $result;
     }
 
@@ -30,7 +30,7 @@ class SaveProductReview extends \Magento\Framework\App\Action\Action
      */
     public function execute()
     {
-        $model = $this->_dataExample->create();
+        $model = $this->createRecord->create();
 
         $data = (array)$this->getRequest()->getPost();
         $collection = $model->getCollection();

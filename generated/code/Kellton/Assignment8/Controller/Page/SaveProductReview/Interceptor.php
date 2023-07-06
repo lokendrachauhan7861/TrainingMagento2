@@ -8,10 +8,10 @@ class Interceptor extends \Kellton\Assignment8\Controller\Page\SaveProductReview
 {
     use \Magento\Framework\Interception\Interceptor;
 
-    public function __construct(\Magento\Framework\App\Action\Context $context, \Kellton\Assignment8\Model\DataExampleFactory $dataExample, \Magento\Framework\Controller\ResultFactory $result)
+    public function __construct(\Magento\Framework\App\Action\Context $context, \Kellton\Assignment8\Model\CreateRecordFactory $createRecord, \Magento\Framework\Controller\ResultFactory $result)
     {
         $this->___init();
-        parent::__construct($context, $dataExample, $result);
+        parent::__construct($context, $createRecord, $result);
     }
 
     /**
