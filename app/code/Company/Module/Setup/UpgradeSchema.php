@@ -12,7 +12,7 @@ class UpgradeSchema implements UpgradeSchemaInterface
 
 		$installer->startSetup();
 
-		if(version_compare($context->getVersion(), '0.1.0', '<')) {
+		if(version_compare($context->getVersion(), '0.4.0', '<')) {
 			$installer->getConnection()->addColumn(
 				$installer->getTable( 'company_module_form' ),
 				'test',

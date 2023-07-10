@@ -49,7 +49,7 @@ class InstallSchema implements \Magento\Framework\Setup\InstallSchemaInterface
 				)
 				->addColumn(
 					'dob',
-					\Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
+					\Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
 					40,
 					[],
 					'DOB'

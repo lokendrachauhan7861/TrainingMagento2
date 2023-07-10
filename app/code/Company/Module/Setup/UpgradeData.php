@@ -16,7 +16,7 @@ class UpgradeData implements UpgradeDataInterface
 	}
     public function upgrade(ModuleDataSetupInterface $setup, ModuleContextInterface $context)
 	{
-		if (version_compare($context->getVersion(), '0.1.0', '<')) {
+		if (version_compare($context->getVersion(), '0.4.0', '<')) {
 			$data = [
                 'firstname'         => "Lokendra",
                 'lastname' => "Chauhan",

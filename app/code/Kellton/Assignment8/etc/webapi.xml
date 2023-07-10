@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
+    <!-- get booking list Api localhost/magento2/pub/rest/V1/get/productLikeDislike -->
+    <route url="/V1/get/productLikeDislike" method="GET">
+        <service class="Kellton\Assignment8\Api\GetLikeDislikeInterface" method="getData" />
+        <resources>
+            <resource ref="anonymous" />
+        </resources>
+    </route>
+  
+ </routes>
