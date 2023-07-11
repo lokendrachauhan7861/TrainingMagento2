@@ -22,7 +22,7 @@ class InstallData implements InstallDataInterface
         $eavSetup = $this->eavSetupFactory->create(['setup'=>$setup]);
         $eavSetup->addAttribute(
             \Magento\Catalog\Model\Product::ENTITY,
-            'custome_eav',
+            'dimention',
             [
                 'group'=>'Content',
                 'type'=>'text',
@@ -32,7 +32,7 @@ class InstallData implements InstallDataInterface
                 'required'=>true,
                 'searchable'=>false,
                 'used_in_product_listing'=>true,
-                'label'=>'Custom EAV',
+                'label'=>'Dimention',
                 'input'=>'text'
             ]
             );
@@ -41,7 +41,7 @@ class InstallData implements InstallDataInterface
             $eavSetup = $this->eavSetupFactory->create(['setup'=>$setup]);
             $eavSetup->addAttribute(
                 \Magento\Catalog\Model\Product::ENTITY,
-                'member_type',
+                'product_color',
                 [
                     'group'=>'Content',
                     'type'=>'text',
@@ -50,11 +50,21 @@ class InstallData implements InstallDataInterface
                     'required'=>false,
                     'searchable'=>false,
                     'used_in_product_listing'=>true,
-                    'label'=>'Member Type',
+                    'label'=>'Product Color',
                     'input'=>'select',
                     'source'=>\Kellton\Assignment9\Model\Config\Options::class
                 ]
                 );
+
+                // $eavSetup = $this->eavSetupFactory->create(['setup' => $setup]);
+                // $eavSetup->removeAttribute(
+                // \Magento\Catalog\Model\Product::ENTITY,
+                // 'custome_eav');
+
+                // $eavSetup = $this->eavSetupFactory->create(['setup' => $setup]);
+                // $eavSetup->removeAttribute(
+                // \Magento\Catalog\Model\Product::ENTITY,
+                // 'member_type');
       
 
         $setup->endSetup();

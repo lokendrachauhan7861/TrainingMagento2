@@ -7,7 +7,7 @@
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
     
-    <module name="Kellton_Assignment9" setup_version="0.7.0">
+    <module name="Kellton_Assignment9" setup_version="0.11.0">
     </module>
 
 

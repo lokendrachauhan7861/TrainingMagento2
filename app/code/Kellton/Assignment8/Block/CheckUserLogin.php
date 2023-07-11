@@ -80,6 +80,16 @@ class CheckUserLogin extends Template
        
     }
 
+    public function getCustomProductAttributeValue()
+    {
+        $product = $this->registry->registry('current_product');
+        $data['dimention'] = $product->getData('dimention');
+        $data['productColor'] = $product->getData('product_color');
+        return $data;
+        
+    }
+
+
 
 
 }
