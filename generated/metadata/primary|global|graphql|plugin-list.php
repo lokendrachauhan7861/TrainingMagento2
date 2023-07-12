@@ -711,6 +711,11 @@
         'sortOrder' => 10,
         'instance' => 'Magento\\ConfigurableProduct\\Model\\Plugin\\ProductRepositorySave',
       ),
+      'GiftProductExtensionAttribute' => 
+      array (
+        'sortOrder' => 0,
+        'instance' => 'Kellton\\Assignment9\\Plugin\\Product\\AddGift',
+      ),
       'availableProductsFilter' => 
       array (
         'sortOrder' => 0,
@@ -4023,6 +4028,11 @@
       array (
         'sortOrder' => 0,
         'instance' => 'Magento\\Catalog\\Plugin\\RemoveImagesFromGalleryAfterRemovingProduct',
+      ),
+      'GiftProductExtensionAttribute' => 
+      array (
+        'sortOrder' => 0,
+        'instance' => 'Kellton\\Assignment9\\Plugin\\Product\\AddGift',
       ),
       'availableProductsFilter' => 
       array (
@@ -7837,7 +7847,8 @@
     array (
       4 => 
       array (
-        0 => 'availableProductsFilter',
+        0 => 'GiftProductExtensionAttribute',
+        1 => 'availableProductsFilter',
       ),
     ),
     'Magento\\Catalog\\Api\\ProductRepositoryInterface_save___self' => 

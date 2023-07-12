@@ -263,6 +263,8 @@
   'Kellton\\Assignment9\\Model\\Config\\Options' => false,
   'Kellton\\Assignment9\\Model\\Config\\Validation' => true,
   'Kellton\\Assignment9\\Model\\Config\\Validation\\Interceptor' => false,
+  'Kellton\\Assignment9\\Plugin\\Product\\AddGift' => false,
+  'Kellton\\Assignment9\\Plugin\\Product\\LoadExtensionAttibutes' => false,
   'Kellton\\Assignment9\\Setup\\InstallData' => false,
   'Laminas\\Captcha\\AbstractAdapter' => false,
   'Laminas\\Captcha\\AbstractWord' => false,
