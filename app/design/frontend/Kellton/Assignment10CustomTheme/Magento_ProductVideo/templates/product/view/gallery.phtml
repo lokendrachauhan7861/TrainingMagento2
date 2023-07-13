@@ -1,0 +1,36 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+/**
+ * Product media data template
+ *
+ * @var $block \Magento\ProductVideo\Block\Product\View\Gallery
+ */
+?>
+<script type="text/x-magento-init">
+    {
+        "[data-gallery-role=gallery-placeholder]": {
+            "Magento_ProductVideo/js/fotorama-add-video-events": {
+                "videoData": <?= /* @noEscape */ $block->getMediaGalleryDataJson() ?>,
+                "videoSettings": <?= /* @noEscape */ $block->getVideoSettingsJson() ?>,
+                "optionsVideoData": <?= /* @noEscape */ $block->getOptionsMediaGalleryDataJson() ?>
+            }
+        }
+    }
+</script>
+<div class="three_images">
+    <img src="<?php echo $block->getViewFileUrl('images/image3.jpeg') ?>">
+    <img src="<?php echo $block->getViewFileUrl('images/image2.jpg') ?>">
+    <img src="<?php echo $block->getViewFileUrl('images/image3.jpeg') ?>">
+</div>
+
+<style>
+.three_images img{
+
+    width: 100px;
+    float: left;
+}
+</style>
