@@ -10,7 +10,7 @@ class InstallData implements InstallDataInterface
 {
 	protected $dataExample;
 
-	public function __construct(\Company\Module\Model\DataExample $dataExample)
+	public function __construct(\SimplifiedMagento\Database\Model\RecordCreate $dataExample)
 	{
 		$this->dataExample = $dataExample;
 	}

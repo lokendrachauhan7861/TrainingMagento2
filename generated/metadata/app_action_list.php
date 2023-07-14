@@ -1,7 +1,4 @@
 <?php return array (
-  'company\\module\\controller\\index\\booking' => 'Company\\Module\\Controller\\Index\\Booking',
-  'company\\module\\controller\\index\\bookinglist' => 'Company\\Module\\Controller\\Index\\BookingList',
-  'company\\module\\controller\\index\\savebooking' => 'Company\\Module\\Controller\\Index\\SaveBooking',
   'kellton\\assignment11\\controller\\index\\userlist' => 'Kellton\\Assignment11\\Controller\\Index\\UserList',
   'kellton\\assignment2or3\\controller\\index\\booking' => 'Kellton\\Assignment2OR3\\Controller\\Index\\Booking',
   'kellton\\assignment2or3\\controller\\index\\bookinglist' => 'Kellton\\Assignment2OR3\\Controller\\Index\\BookingList',
