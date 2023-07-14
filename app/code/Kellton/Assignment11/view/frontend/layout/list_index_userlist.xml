@@ -6,7 +6,7 @@
     <body>
         <referenceBlock name="navigation.sections" remove="true" />
         <referenceContainer name="content">
-            <block class="Kellton\Assignment11\Block\UserList" name="list" template="Kellton_Assignment11::listing.phtml"/>
+            <block class="Kellton\Assignment11\Block\UserList" name="list" template="Kellton_Assignment11::listing.phtml" cacheable="false"/>
         </referenceContainer>
     </body>
 </page>

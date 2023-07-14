@@ -225,6 +225,7 @@
   'IteratorAggregate' => false,
   'IteratorIterator' => false,
   'JsonSerializable' => false,
+  'Kellton\\Assignment11\\App\\Cache\\Hello' => false,
   'Kellton\\Assignment11\\Block\\UserList' => false,
   'Kellton\\Assignment11\\Controller\\Index\\UserList' => true,
   'Kellton\\Assignment11\\Controller\\Index\\UserList\\Interceptor' => false,
