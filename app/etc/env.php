@@ -74,7 +74,8 @@ return [
         'config_integration_api' => 0,
         'full_page' => 0,
         'config_webservice' => 0,
-        'translate' => 0
+        'translate' => 0,
+        'hello' => 0
     ],
     'downloadable_domains' => [
         'localhost'

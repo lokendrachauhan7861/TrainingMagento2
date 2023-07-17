@@ -9,8 +9,12 @@
 
 $url = $block->getReviewsUrl() . '#reviews';
 $urlForm = $block->getReviewsUrl() . '#review-form';
+echo $this->getLayout()
+->createBlock('Magento\Cms\Block\Block')
+->setBlockId('static-block')
+->toHtml();
 ?>
-<h6>aaaaaaaaaaa</h6>
+
 <?php if ($block->isReviewEnabled() && $block->getReviewsCount()): ?>
     <?php $rating = $block->getRatingSummary(); ?>
     <div class="product-reviews-summary short<?= !$rating ? ' no-rating' : '' ?>">

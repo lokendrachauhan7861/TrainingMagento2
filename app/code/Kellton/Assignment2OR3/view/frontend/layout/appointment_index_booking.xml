@@ -9,4 +9,8 @@
             <block class="Kellton\Assignment2OR3\Block\Booking" name="appointment.booking" template="Kellton_Assignment2OR3::booking.phtml"/>
         </referenceContainer>
     </body>
+    <head>
+    <script src="Kellton_Assignment2OR3::js/main.js"></script>
+    <css src="Kellton_Assignment2OR3::css/custome-main.css" rel="stylesheet" type="text/css"  />
+    </head>
 </page>

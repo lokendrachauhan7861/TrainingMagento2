@@ -59,7 +59,7 @@ class SaveBooking extends \Magento\Framework\App\Action\Action
 
         // Redirect to your form page (or anywhere you want...)
         $resultRedirect = $this->resultFactory->create(ResultFactory::TYPE_REDIRECT);
-        $resultRedirect->setUrl($this->_redirect->getRefererUrl());
+        $resultRedirect->setPath($this->_redirect->getRefererUrl());
         return $resultRedirect;
 
        
