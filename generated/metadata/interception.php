@@ -225,6 +225,7 @@
   'IteratorAggregate' => false,
   'IteratorIterator' => false,
   'JsonSerializable' => false,
+  'Kellton\\AdminAssignment12\\Block\\Data' => false,
   'Kellton\\AdminAssignment12\\Controller\\Adminhtml\\Member\\Index' => true,
   'Kellton\\AdminAssignment12\\Controller\\Adminhtml\\Member\\Index\\Interceptor' => false,
   'Kellton\\AdminAssignment12\\Controller\\Index\\Index' => true,

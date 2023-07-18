@@ -6,18 +6,14 @@ namespace Kellton\AdminAssignment12\Controller\Index;
 use Magento\Framework\App\Action\Action;
 use Magento\Framework\App\Action\Context;
 use Magento\Framework\App\ResponseInterface;
-use Magento\Framework\App\Config\ScopeConfigInterface;
 
 class Index extends Action
 {
 
-    private $scopeConfig;
     public function __construct(
-        Context $context,
-        ScopeConfigInterface  $scopeConfig) 
+        Context $context) 
     {
         parent::__construct($context);
-        $this->scopeConfig = $scopeConfig;
     }
 
 
@@ -28,9 +24,8 @@ class Index extends Action
      */
     public function execute()
     {
-    echo $this->scopeConfig->getValue('Firstsection/Firstgroup/Firstfield');
-    echo "<br>";
-    print_r($this->scopeConfig->getValue('Firstsection/Firstgroup/Thirdfield'));
+    $this->_view->loadLayout();
+    $this->_view->renderLayout();
        
     }
 }
