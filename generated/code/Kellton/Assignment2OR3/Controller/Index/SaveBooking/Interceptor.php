@@ -8,10 +8,10 @@ class Interceptor extends \Kellton\Assignment2OR3\Controller\Index\SaveBooking i
 {
     use \Magento\Framework\Interception\Interceptor;
 
-    public function __construct(\Magento\Framework\App\Action\Context $context, \Kellton\Assignment2OR3\Model\AppointmentBookFactory $appointmentBook, \Magento\Framework\Controller\ResultFactory $result)
+    public function __construct(\Magento\Framework\App\Action\Context $context, \Kellton\Assignment2OR3\Model\AppointmentBookFactory $appointmentBook, \Magento\Framework\Controller\ResultFactory $resultFactory)
     {
         $this->___init();
-        parent::__construct($context, $appointmentBook, $result);
+        parent::__construct($context, $appointmentBook, $resultFactory);
     }
 
     /**

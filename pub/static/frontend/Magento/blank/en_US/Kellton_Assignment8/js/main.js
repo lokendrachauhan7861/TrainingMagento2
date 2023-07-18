@@ -5,6 +5,8 @@ $(document).ready(function() {
        var productId = $('#productId').data('product-id');
        var customerId = $('#customerId').data('customer-id');
        var getlikeDislikeValue = $(this).attr('data-val');
+       if(customerId > 0 )
+       {
         $('.button_action a.active').removeClass('active');
         $(this).addClass('active');
        $.ajax({
@@ -15,7 +17,11 @@ $(document).ready(function() {
             //alert(data);
            }
        })
-     
+      }
+      else
+      {
+        alert('Plese Login After You Will Permission For Like Or Dislike');
+      }
     })
 })
 

@@ -331,6 +331,8 @@ return [
         'SimplifiedMagento_FirstModule' => 1,
         'SimplifiedMagento_HelloWorld' => 1,
         'SimplifiedMagento_RequestFlow' => 1,
+        'Kellton_AdminAssignment12' => 1,
+        'Kellton_Assignment10' => 1,
         'Kellton_Assignment11' => 1,
         'Kellton_Assignment2OR3' => 1,
         'Kellton_Assignment8' => 1,

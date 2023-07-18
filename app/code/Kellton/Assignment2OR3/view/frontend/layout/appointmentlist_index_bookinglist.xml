@@ -9,4 +9,7 @@
             <block class="Kellton\Assignment2OR3\Block\GetList" name="appointmentlist.bookinglist" template="Kellton_Assignment2OR3::bookinglist.phtml"/>
         </referenceContainer>
     </body>
+    <head>
+    <css src="Kellton_Assignment2OR3::css/listing.css" rel="stylesheet" type="text/css"  />
+    </head>
 </page>

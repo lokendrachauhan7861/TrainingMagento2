@@ -11,14 +11,14 @@ class SaveBooking extends \Magento\Framework\App\Action\Action
 {
 
     protected $appointmentBook;
-    protected $resultRedirect;
+    protected $resultFactory;
     public function __construct(
         Context $context,
         AppointmentBookFactory  $appointmentBook,
-        ResultFactory $result) {
+        ResultFactory $resultFactory) {
         parent::__construct($context);
         $this->appointmentBook = $appointmentBook;
-        $this->resultRedirect = $result;
+        $this->resultFactory = $resultFactory;
     }
 
 
@@ -57,9 +57,10 @@ class SaveBooking extends \Magento\Framework\App\Action\Action
         }
       
 
-        // Redirect to your form page (or anywhere you want...)
+
+
         $resultRedirect = $this->resultFactory->create(ResultFactory::TYPE_REDIRECT);
-        $resultRedirect->setPath($this->_redirect->getRefererUrl());
+        $resultRedirect->setUrl($this->_url->getUrl('appointmentlist/index/bookinglist'));
         return $resultRedirect;
 
        
