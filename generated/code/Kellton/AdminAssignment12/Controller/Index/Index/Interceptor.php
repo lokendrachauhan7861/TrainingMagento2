@@ -8,10 +8,10 @@ class Interceptor extends \Kellton\AdminAssignment12\Controller\Index\Index impl
 {
     use \Magento\Framework\Interception\Interceptor;
 
-    public function __construct(\Magento\Framework\App\Action\Context $context, \Magento\Framework\App\Config\ScopeConfigInterface $scopeConfig)
+    public function __construct(\Magento\Framework\App\Action\Context $context)
     {
         $this->___init();
-        parent::__construct($context, $scopeConfig);
+        parent::__construct($context);
     }
 
     /**
