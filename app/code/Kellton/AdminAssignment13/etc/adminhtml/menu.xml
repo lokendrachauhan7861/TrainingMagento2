@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Webkul_Grid Menu
+ *
+ * @category    Webkul
+ * @package     Webkul_Grid
+ * @author      Webkul Software Private Limited
+ *
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Kellton_AdminAssignment13::manager" title="Grid Manager" module="Kellton_AdminAssignment13" sortOrder="10" resource="Kellton_AdminAssignment13::manager"/>
+        <add id="Kellton_AdminAssignment13::add_row" title="Grid Manager" module="Kellton_AdminAssignment13" sortOrder="20" parent="Kellton_AdminAssignment13::manager" action="grid/grid" resource="Kellton_AdminAssignment13::add_row"/>
+    </menu>
+</config>

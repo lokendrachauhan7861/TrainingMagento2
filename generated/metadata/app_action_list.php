@@ -1,6 +1,10 @@
 <?php return array (
   'kellton\\adminassignment12\\controller\\adminhtml\\member\\index' => 'Kellton\\AdminAssignment12\\Controller\\Adminhtml\\Member\\Index',
   'kellton\\adminassignment12\\controller\\index\\index' => 'Kellton\\AdminAssignment12\\Controller\\Index\\Index',
+  'kellton\\adminassignment13\\controller\\adminhtml\\grid\\addrow' => 'Kellton\\AdminAssignment13\\Controller\\Adminhtml\\Grid\\AddRow',
+  'kellton\\adminassignment13\\controller\\adminhtml\\grid\\index' => 'Kellton\\AdminAssignment13\\Controller\\Adminhtml\\Grid\\index',
+  'kellton\\adminassignment13\\controller\\adminhtml\\grid\\massdelete' => 'Kellton\\AdminAssignment13\\Controller\\Adminhtml\\Grid\\MassDelete',
+  'kellton\\adminassignment13\\controller\\adminhtml\\grid\\save' => 'Kellton\\AdminAssignment13\\Controller\\Adminhtml\\Grid\\Save',
   'kellton\\assignment10\\controller\\product\\details' => 'Kellton\\Assignment10\\Controller\\Product\\Details',
   'kellton\\assignment11\\controller\\index\\userlist' => 'Kellton\\Assignment11\\Controller\\Index\\UserList',
   'kellton\\assignment2or3\\controller\\index\\booking' => 'Kellton\\Assignment2OR3\\Controller\\Index\\Booking',

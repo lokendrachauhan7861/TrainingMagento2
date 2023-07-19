@@ -3881,6 +3881,14 @@
     'Magento\\WebapiAsync\\Controller\\Rest\\VirtualType\\AsynchronousBulkSchemaRequestProcessor' => NULL,
     'Magento\\Catalog\\Block\\Product\\Context' => NULL,
     'Magento\\Wishlist\\Block\\Context' => NULL,
+    'Kellton\\AdminAssignment13\\Model\\ResourceModel\\Grid\\Grid\\Collection' => 
+    array (
+      'currentPageDetection' => 
+      array (
+        'sortOrder' => 0,
+        'instance' => 'Magento\\Theme\\Plugin\\Data\\Collection',
+      ),
+    ),
     'Magento\\Framework\\ForeignKey\\Migration\\TableNameArrayIterator' => NULL,
     'OmsTableNameArrayIterator' => NULL,
     'Magento\\Payment\\Model\\SaleOperationInterface' => NULL,
@@ -7937,6 +7945,13 @@
     'Magento\\WebapiAsync\\Controller\\VirtualType\\Rest\\RequestValidator_validate___self' => 
     array (
       2 => 'rest_webapi_recaptcha_validation',
+    ),
+    'Kellton\\AdminAssignment13\\Model\\ResourceModel\\Grid\\Grid\\Collection_getCurPage___self' => 
+    array (
+      4 => 
+      array (
+        0 => 'currentPageDetection',
+      ),
     ),
     'Magento\\Framework\\DB\\Adapter\\AdapterInterface_commit___self' => 
     array (

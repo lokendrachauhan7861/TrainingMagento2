@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--
+/** Grid di xml
+ * @category  Webkul
+ * @package   Webkul_Grid
+ * @author    Webkul
+ * @copyright Copyright (c) 2010-2017 Webkul Software Private Limited (https://webkul.com)
+ * @license   https://store.webkul.com/license.html
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Kellton\AdminAssignment13\Api\Data\GridInterface" type="Kellton\AdminAssignment13\Model\Grid" />
+    <virtualType name="Kellton\AdminAssignment13\Model\ResourceModel\Grid\Grid\Collection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">kk_grid_records</argument>
+            <argument name="resourceModel" xsi:type="string">Kellton\AdminAssignment13\Model\ResourceModel\Grid</argument>
+        </arguments>
+    </virtualType>
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="grid_record_grid_list_data_source" xsi:type="string">Kellton\AdminAssignment13\Model\ResourceModel\Grid\Grid\Collection</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
