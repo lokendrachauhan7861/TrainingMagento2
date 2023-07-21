@@ -253,6 +253,7 @@
   'Kellton\\AdminAssignment13\\Model\\Status' => false,
   'Kellton\\AdminAssignment13\\Setup\\InstallSchema' => false,
   'Kellton\\AdminAssignment13\\Ui\\Component\\Listing\\Grid\\Column\\Action' => false,
+  'Kellton\\AdminAssignment13\\Ui\\Component\\Listing\\Grid\\Column\\MemberAction' => false,
   'Kellton\\Assignment10\\Block\\ProductDetails' => false,
   'Kellton\\Assignment10\\Controller\\Product\\Details' => true,
   'Kellton\\Assignment10\\Controller\\Product\\Details\\Interceptor' => false,

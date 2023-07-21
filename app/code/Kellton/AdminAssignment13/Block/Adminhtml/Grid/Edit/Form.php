@@ -72,6 +72,19 @@ class Form extends \Magento\Backend\Block\Widget\Form\Generic
                 'required' => true,
             ]
         );
+        // $fieldset->addField(
+        //     'dummy title',
+        //     'text',
+        //     [
+        //         'name' => 'dummy title',
+        //         'label' => __('DummyTitle'),
+        //         'id' => 'dummytitle',
+        //         'title' => __('DummyTitle'),
+        //         'class' => 'required-entry',
+        //         'required' => true,
+        //     ]
+        // );
+
         $wysiwygConfig = $this->_wysiwygConfig->getConfig(['tab_id' => $this->getTabId()]);
         $fieldset->addField(
             'content',
