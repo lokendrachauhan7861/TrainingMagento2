@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<page layout="2columns-left" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <title>Write Product Review</title>
+    </head>
+    <body>
+        <referenceBlock name="navigation.sections" remove="true" />
+        <referenceContainer name="content">
+            <block class="Kellton\FinalAssessment\Block\ReviewForm" name="review" template="Kellton_FinalAssessment::review_form.phtml"/>
+        </referenceContainer>
+    </body>
+    <head>
+    <css src="Kellton_FinalAssessment::css/review-form.css" rel="stylesheet" type="text/css"  />
+    </head>
+</page>

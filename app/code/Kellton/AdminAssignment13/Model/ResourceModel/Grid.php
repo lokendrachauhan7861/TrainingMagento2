@@ -10,6 +10,7 @@ namespace Kellton\AdminAssignment13\Model\ResourceModel;
  */
 class Grid extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
 {
+
     /**
      * @var string
      */

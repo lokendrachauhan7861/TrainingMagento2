@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="product.info.addtocart">
+            <block class="Kellton\FinalAssessment\Block\GetProduct" name="product.info.quote" template="Kellton_FinalAssessment::catalog/product/view/custom.phtml"/>
+        </referenceBlock>
+    </body>
+    <head>
+    <css src="Kellton_FinalAssessment::css/custome-main.css" rel="stylesheet" type="text/css"  />
+    </head>
+</page>

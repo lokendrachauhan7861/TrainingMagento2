@@ -133,6 +133,14 @@
                </item>
            </argument>
        </column>
+        <column name="second_title">
+           <argument name="data" xsi:type="array">
+               <item name="config" xsi:type="array">
+                   <item name="filter" xsi:type="string">textRange</item>
+                   <item name="label" xsi:type="string" translate="true">Second Title</item>
+               </item>
+           </argument>
+       </column>
        <column name="content" >
            <argument name="data" xsi:type="array">
                <item name="config" xsi:type="array">

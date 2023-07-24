@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<page layout="2columns-left" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    
+    <body>
+        <referenceBlock name="navigation.sections" remove="true" />
+        <referenceContainer name="content">
+            <block class="Kellton\FinalAssessment\Block\ProductDetails" name="list" template="Kellton_FinalAssessment::product_details.phtml" cacheable="false"/>
+        </referenceContainer>
+    </body>
+    <head>
+    <css src="Kellton_FinalAssessment::css/product-details.css" rel="stylesheet" type="text/css"  />
+    </head>
+    
+</page>

@@ -1,0 +1,17 @@
+
+<?php
+$product = $block->getProductDetails();
+//print_r($product);die;
+?>
+
+
+<div class="grid-container">
+<div class="grid-item" id="box1"><img src="<?php echo $product['productImage'] ?>" width="300" height="300"></div>
+<div class="grid-item" id="box3">
+  <?php echo $product['productName'] ?><br>
+  <?php echo $product['productPrice'] ?>
+</div>
+
+</div>
+<div class="button_action"><a href="/review/productreview/reviewform">Add New Review</a></div>
+

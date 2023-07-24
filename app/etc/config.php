@@ -338,6 +338,7 @@ return [
         'Kellton_Assignment2OR3' => 1,
         'Kellton_Assignment8' => 1,
         'Kellton_Assignment9' => 1,
+        'Kellton_FinalAssessment' => 1,
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,
         'Temando_ShippingRemover' => 1
