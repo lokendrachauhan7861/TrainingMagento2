@@ -6,6 +6,9 @@ use Magento\Catalog\Model\ProductFactory;
 use Magento\Framework\App\Request\Http;
 use Magento\Framework\Session\SessionManagerInterface;
 use \Magento\Customer\Model\SessionFactory;
+use Kellton\FinalAssessment\Model\ResourceModel\WriteReview\CollectionFactory;
+use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
+use Magento\Framework\App\Config\ScopeConfigInterface;
 
 
 class ProductDetails extends Template
@@ -14,6 +17,8 @@ class ProductDetails extends Template
     protected $request;
     protected $session;
     protected $sessionFactory;
+    protected $collectionFactory;
+    protected $scopeConfig;
 
     public function __construct(
         Template\Context $context,
@@ -21,12 +26,16 @@ class ProductDetails extends Template
         Http $request,
         SessionManagerInterface $session,
         SessionFactory $sessionFactory,
+        CollectionFactory $collectionFactory,
+        ScopeConfigInterface  $scopeConfig,
         array $data = []
     ) {
         $this->productFactory = $productFactory;
         $this->request = $request;
         $this->session = $session;
         $this->sessionFactory = $sessionFactory;
+        $this->collectionFactory = $collectionFactory;
+        $this->scopeConfig = $scopeConfig;
         parent::__construct($context, $data);
     }
 
@@ -55,9 +64,27 @@ class ProductDetails extends Template
 
     public function getCustomerId()
     {
-        //return $aa = "etawah";
+      
         //get customer id here
         $customerSession = $this->sessionFactory->create();
         return $customerSession->getCustomer()->getId();
+    }
+
+    public function getCollection()
+    {
+        $id = $this->request->getParam('pId'); // Assuming 'id' is the parameter name in the URL
+        $productId = urldecode($id);
+        $collection = $this->collectionFactory->create();
+        $collection->addFieldToFilter('product_id', $productId);
+        $collection->addOrder('id', 'desc');
+        $collection->setPageSize(5);
+        return $collection->getData();
+    }
+
+    public function getStoreConfigHeading()
+    {
+        $data['configHeading'] = $this->scopeConfig->getValue('Firstsectiondata/Firstgroupdata/Firstfielddata');
+        $data['settingsyesno'] = $this->scopeConfig->getValue('Firstsectiondata/Firstgroupdata/Secondfielddata');
+        return $data;
     }
 }

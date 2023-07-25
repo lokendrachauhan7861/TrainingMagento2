@@ -8,7 +8,7 @@ $sessionData = $block->getSessionValue();
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<div class="button_action"><a href="/review/productreview/reviewform">Back</a></div>
+<div class="button_action"><a href="/custome-product-review?pId=<?php echo $sessionData['customProductID']; ?>">Back</a></div>
 <form data-mage-init='{"validation": {}}' class="form" id="custom-form" action="<?php echo $block->getFormAction() ?>" method="post">
   <div class="container">
 

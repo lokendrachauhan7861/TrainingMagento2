@@ -33,12 +33,6 @@ class InstallSchema implements \Magento\Framework\Setup\InstallSchemaInterface
                 ['nullable => false'],
                 'Product Id'
             )->addColumn(
-                'user_id',
-                Table::TYPE_INTEGER,
-                20,
-                [],
-                'User Id'
-            )->addColumn(
                 'customer_id',
                 Table::TYPE_INTEGER,
                 20,
