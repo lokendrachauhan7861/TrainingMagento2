@@ -87,4 +87,6 @@ class ProductDetails extends Template
         $data['settingsyesno'] = $this->scopeConfig->getValue('Firstsectiondata/Firstgroupdata/Secondfielddata');
         return $data;
     }
+
+  
 }

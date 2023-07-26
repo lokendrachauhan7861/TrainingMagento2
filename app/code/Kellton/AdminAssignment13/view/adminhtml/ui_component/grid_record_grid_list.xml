@@ -149,7 +149,7 @@
                </item>
            </argument>
        </column>
-       <column name="is_active" >
+       <!-- <column name="is_active" >
            <argument name="data" xsi:type="array">
                <item name="options" xsi:type="object">Kellton\AdminAssignment13\Model\Status</item>
                <item name="config" xsi:type="array">
@@ -159,7 +159,7 @@
                    <item name="label" xsi:type="string" translate="true">Is Active</item>
                </item>
            </argument>
-       </column>
+       </column> -->
        <column name="publish_date" class="Magento\Ui\Component\Listing\Columns\Date" >
            <argument name="data" xsi:type="array">
                <item name="config" xsi:type="array">
@@ -193,7 +193,7 @@
        <!-- Add Action with each row of grid and for this we will create a class Action -->
        
 
-       <actionsColumn name="actions" class="Kellton\AdminAssignment13\Ui\Component\Listing\Grid\Column\MemberAction">
+       <!-- <actionsColumn name="actions" class="Kellton\AdminAssignment13\Ui\Component\Listing\Grid\Column\MemberAction">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
                     <item name="resizeEnabled" xsi:type="boolean">false</item>
@@ -201,6 +201,6 @@
                     <item name="indexField" xsi:type="string">entity_id</item>
                 </item>
             </argument>
-        </actionsColumn>
+        </actionsColumn> -->
     </columns>
 </listing>

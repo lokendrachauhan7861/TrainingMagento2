@@ -8,7 +8,9 @@
         </referenceContainer>
     </body>
     <head>
+    <css src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" src_type="url" />
     <css src="Kellton_FinalAssessment::css/product-details.css" rel="stylesheet" type="text/css"  />
+    
     </head>
     
 </page>

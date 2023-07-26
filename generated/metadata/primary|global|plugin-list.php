@@ -3889,6 +3889,14 @@
         'instance' => 'Magento\\Theme\\Plugin\\Data\\Collection',
       ),
     ),
+    'Kellton\\FinalAssessment\\Model\\ResourceModel\\WriteReview\\WriteReview\\Collection' => 
+    array (
+      'currentPageDetection' => 
+      array (
+        'sortOrder' => 0,
+        'instance' => 'Magento\\Theme\\Plugin\\Data\\Collection',
+      ),
+    ),
     'Magento\\Framework\\ForeignKey\\Migration\\TableNameArrayIterator' => NULL,
     'OmsTableNameArrayIterator' => NULL,
     'Magento\\Payment\\Model\\SaleOperationInterface' => NULL,
@@ -7947,6 +7955,13 @@
       2 => 'rest_webapi_recaptcha_validation',
     ),
     'Kellton\\AdminAssignment13\\Model\\ResourceModel\\Grid\\Grid\\Collection_getCurPage___self' => 
+    array (
+      4 => 
+      array (
+        0 => 'currentPageDetection',
+      ),
+    ),
+    'Kellton\\FinalAssessment\\Model\\ResourceModel\\WriteReview\\WriteReview\\Collection_getCurPage___self' => 
     array (
       4 => 
       array (
