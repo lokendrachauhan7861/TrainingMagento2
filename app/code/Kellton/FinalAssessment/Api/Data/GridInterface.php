@@ -15,23 +15,23 @@ interface GridInterface
     const ID = 'id';
     const Name = 'name';
     /**
-     * Get EntityId.
+     * Get ID.
      *
      * @return int
      */
     public function getId();
     /**
-     * Set EntityId.
+     * Set ID.
      */
     public function setId($id);
     /**
-     * Get Title.
+     * Get Name.
      *
      * @return varchar
      */
     public function getName();
     /**
-     * Set Title.
+     * Set Name.
      */
     public function setName($name);
    

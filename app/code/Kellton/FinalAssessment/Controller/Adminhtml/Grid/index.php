@@ -29,7 +29,7 @@ class Index extends \Magento\Backend\App\Action
         /** @var \Magento\Backend\Model\View\Result\Page $resultPage */
          $resultPage = $this->_resultPageFactory->create();
         $resultPage->setActiveMenu('Kellton_FinalAssessment::final_grid_list');
-        $resultPage->getConfig()->getTitle()->prepend(__('Grid List'));
+        $resultPage->getConfig()->getTitle()->prepend(__('Grid List Data'));
         return $resultPage;
     }
     /**
