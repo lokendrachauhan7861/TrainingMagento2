@@ -10,6 +10,7 @@
         </referenceContainer>
     </body>
     <head>
+     <script src="Kellton_FinalAssessment::js/custom-validation.js"></script>
     <css src="Kellton_FinalAssessment::css/review-form.css" rel="stylesheet" type="text/css"  />
     </head>
 </page>

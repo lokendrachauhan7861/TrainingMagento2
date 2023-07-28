@@ -33,7 +33,7 @@ class Save extends \Magento\Backend\App\Action
             $rowData = $this->gridFactory->create();
             $rowData->setData($data);
             if (isset($data['id'])) {
-                $rowData->setEntityId($data['id']);
+                $rowData->setID($data['id']);
             }
             $rowData->save();
             $this->messageManager->addSuccess(__('Row data has been successfully saved.'));

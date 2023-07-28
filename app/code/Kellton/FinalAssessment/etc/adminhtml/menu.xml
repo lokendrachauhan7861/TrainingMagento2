@@ -11,7 +11,7 @@
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="Kellton_FinalAssessment::member" title="Final Assessment Grid" module="Kellton_FinalAssessment" sortOrder="10" resource="Kellton_FinalAssessment::member"/>
-        <add id="Kellton_FinalAssessment::add_new_row" title="Final Assessment Grid" module="Kellton_FinalAssessment" sortOrder="20" parent="Kellton_FinalAssessment::member" action="finalgrid/grid" resource="Kellton_FinalAssessment::add_new_row"/>
+        <add id="Kellton_FinalAssessment::memberlist" title="Final Assessment Grid" module="Kellton_FinalAssessment" sortOrder="10" resource="Kellton_FinalAssessment::memberlist"/>
+        <add id="Kellton_FinalAssessment::add_new_row" title="Final Assessment Grid" module="Kellton_FinalAssessment" sortOrder="20" parent="Kellton_FinalAssessment::memberlist" action="finalgrid/grid" resource="Kellton_FinalAssessment::add_new_row"/>
     </menu>
 </config>

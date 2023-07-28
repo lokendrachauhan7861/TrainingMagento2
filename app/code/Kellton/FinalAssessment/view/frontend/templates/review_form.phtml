@@ -15,7 +15,7 @@ $sessionData = $block->getSessionValue();
     <input type="hidden" name="product_id" value="<?php echo $sessionData['customProductID']; ?>">
     <input type="hidden" name="customer_id" value="<?php echo $sessionData['customCustomerID']; ?>">
     <label for="name"><b>Name</b></label>
-    <input  type="text" placeholder="Name" name="name" data-validate="{required:true, 'validate-alpha':true}">
+    <input  type="text" placeholder="Name" name="name" id="FieldAcceptOnlyAlphaWithSpace" data-validate="{required:true}">
    
     <label for="email"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" id="email_address" data-validate="{required:true, 'validate-email':true}">

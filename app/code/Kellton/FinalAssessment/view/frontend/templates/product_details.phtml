@@ -12,7 +12,9 @@ $getCustomerId = $block->getCustomerId();
 
 <div class="cls_heading">
 <?php if($getConfigData['settingsyesno'] == '1') { echo $getConfigData['configHeading']; } 
-else { echo "Static Reviewed Product Data List"; } ?>
+else { echo "Static Reviewed Product Data List"; }  ?>
+<?php echo "<br>"; ?>
+ProductName:- <?php echo $product['productName']; ?>
 </div>
 
 <table style="width:100%">
